@@ -1,0 +1,69 @@
+﻿@page "/recommendations/{ReaderId}"
+@inject RecommendationRepository Repo
+@using BookRecommendationSystem.Data
+
+@if (_error is not null)
+{
+    <div class="db-unavailable-banner">
+        <p>@_error</p>
+        <button @onclick="LoadAsync">Retry</button>
+    </div>
+}
+else if (_recs is null)
+{
+    <p>Loading recommendations…</p>
+}
+else if (_recs.Count == 0)
+{
+    <p>Not enough ratings yet to build recommendations for this reader.</p>
+}
+else
+{
+    <ul class="rec-list">
+        @foreach (var rec in _recs)
+        {
+            <li class="rec-card">
+                <div class="rec-header" @onclick="() => Toggle(rec.Title)">
+                    <strong>@rec.Title</strong>
+                    <span>@rec.AvgRating.ToString("0.0")★</span>
+                    <span class="badge">@rec.Evidence.Count reader@(rec.Evidence.Count == 1 ? "" : "s") agree</span>
+                </div>
+
+                @if (_expanded.Contains(rec.Title))
+                {
+                    <ul class="evidence-list">
+                        @foreach (var ev in rec.Evidence)
+                        {
+                            <li>
+                                <strong>@ev.ReaderName</strong> rated it @ev.Score★ —
+                                you both loved <em>@string.Join(", ", ev.SharedBooks.Take(2))</em>
+                            </li>
+                        }
+                    </ul>
+                }
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    [Parameter] public string ReaderId { get; set; } = "";
+    private List<ExplainableRecommendation>? _recs;
+    private readonly HashSet<string> _expanded = new();
+    private string? _error;
+
+    protected override Task OnParametersSetAsync() => LoadAsync();
+
+    private async Task LoadAsync()
+    {
+        _error = null; _recs = null;
+        StateHasChanged();
+        try { _recs = await Repo.GetExplainableRecommendationsAsync(ReaderId); }
+        catch (DatabaseUnavailableException ex) { _error = ex.Message; }
+    }
+
+    private void Toggle(string title)
+    {
+        if (!_expanded.Remove(title)) _expanded.Add(title);
+    }
+}

@@ -1,6 +1,19 @@
+using BookRecommendationSystem.Data;
 using BookRecommendationSystem.Web.Components;
+using Microsoft.Extensions.Options;
+using Neo4j.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Configure<CognoDbSettings>(builder.Configuration.GetSection("CognoDb"));
+
+builder.Services.AddSingleton<IDriver>(sp =>
+{
+    var settings = sp.GetRequiredService<IOptions<CognoDbSettings>>().Value;
+    return Neo4jConnection.CreateDriver(settings);
+});
+
+builder.Services.AddScoped<RecommendationRepository>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -12,15 +25,14 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
+//app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
 app.UseHttpsRedirection();
-
+app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapStaticAssets();
+//app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 

@@ -14,7 +14,8 @@ public record ExplainableRecommendation(
     int Votes,
     List<RecommendationEvidence> Evidence);
 
-public class DataBaseUnaviableException : Exception
+public class DatabaseUnavailableException : Exception
 {
-    public DataBaseUnaviableException(string message, Exception inner) : base(message, inner) { }
+    public DatabaseUnavailableException(string message, Exception inner) : base(message, inner) { }
+
 }
