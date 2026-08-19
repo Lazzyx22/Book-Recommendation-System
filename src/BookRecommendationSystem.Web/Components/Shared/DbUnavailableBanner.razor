@@ -1,0 +1,13 @@
+﻿<div class="db-banner">
+    <div class="db-banner-icon" ⚠</div>
+    <div class="db-banner-text">
+        <strong>Can't reach the database</strong>
+        <p>@Message</p>
+    </div>
+    <button class="btn-retry" @onclick="OnRetry">Retry</button>
+</div>
+@code {
+    [Parameter] public string Message { get; set; } = "Something went wrong.";
+    [Parameter] public EventCallback OnRetry { get; set; }
+
+}

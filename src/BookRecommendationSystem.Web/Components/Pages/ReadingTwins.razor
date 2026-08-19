@@ -1,0 +1,51 @@
+﻿@page "/reading-twin/{ReaderId}"
+@inject RecommendationRepository Repo
+@using BookRecommendationSystem.Data
+@using BookRecommendationSystem.Web.Components.Shared
+
+@if (_error is not null)
+{
+    <DbUnavailableBanner Message="@_error" OnRetry="LoadAsync" />
+}
+else if (!_loaded)
+{
+    <LoadingSkeleton Rows="1" />
+}
+else if (_twin is null)
+{
+    <div class="empty-state">
+        <p>No reading twin found yet — this reader hasn't overlapped enough with anyone else.</p>
+    </div>
+}
+else
+{
+    <div class="twin-card">
+        <h2>Your reading twin</h2>
+        <p class="twin-name">@_twin.Value.TwinName</p>
+        <p>
+            You've both rated <strong>@_twin.Value.SharedBooks</strong> of the same books,
+            averaging <strong>@_twin.Value.AvgScoreGap.ToString("0.0")</strong> stars apart.
+        </p>
+    </div>
+}
+
+@code {
+    [Parameter] public string ReaderId { get; set; } = "";
+    private (string TwinName, int SharedBooks, double AvgScoreGap)? _twin;
+    private bool _loaded;
+    private string? _error;
+
+    protected override Task OnParametersSetAsync() => LoadAsync();
+
+    private async Task LoadAsync()
+    {
+        _error = null; _loaded = false;
+        StateHasChanged();
+        try
+        {
+            _twin = await Repo.GetReadingTwinAsync(ReaderId);
+        }
+        catch (DatabaseUnavailableException ex) { _error = ex.Message; }
+        finally { _loaded = true; }
+    }
+}

@@ -1,0 +1,117 @@
+﻿@page "/"
+@page "/reader/{ReaderId}"
+@inject ReaderRepository ReaderRepo
+@using BookRecommendationSystem.Data
+@using BookRecommendationSystem.Web.Components.Shared
+
+<PageTitle>BookRecommendationSystem</PageTitle>
+
+<div class="layout">
+    <aside class="reader-list-panel">
+        <h2>Readers</h2>
+        @if (_readerError is not null)
+        {
+            <DbUnavailableBanner Message="@_readerError" OnRetry="LoadReadersAsync" />
+        }
+        else if (_readers is null)
+        {
+            <LoadingSkeleton Rows="6" />
+        }
+        else
+        {
+            <ul class="reader-list">
+                @foreach (var r in _readers)
+                {
+                    <li class="@(r.Id == ReaderId ? "active" : "")">
+                        <a href="/reader/@r.Id">
+                            <span>@r.Name</span>
+                            <span class="rating-count">@r.RatingCount rated</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        }
+    </aside>
+
+    <main class="reader-detail-panel">
+        @if (string.IsNullOrEmpty(ReaderId))
+        {
+            <div class="empty-state">
+                <p>Pick a reader on the left to see what they've read and get recommendations.</p>
+            </div>
+        }
+        else if (_booksError is not null)
+        {
+            <DbUnavailableBanner Message="@_booksError" OnRetry="LoadBooksAsync" />
+        }
+        else if (_books is null)
+        {
+            <LoadingSkeleton Rows="4" />
+        }
+        else if (_books.Count == 0)
+        {
+            <div class="empty-state">
+                <p>This reader hasn't rated any books yet.</p>
+            </div>
+        }
+        else
+        {
+            <div class="detail-header">
+                <h2>@CurrentReaderName's ratings</h2>
+                <div class="detail-actions">
+                    <a class="btn-primary" href="/recommendations/@ReaderId">View recommendations →</a>
+                    <a class="btn-secondary" href="/reading-twin/@ReaderId">Find my reading twin →</a>
+                </div>
+            </div>
+            <ul class="book-list">
+                @foreach (var b in _books)
+                {
+                    <li class="book-row">
+                        <span class="book-title">@b.Title</span>
+                        <span class="book-score">@b.Score★</span>
+                        <span class="book-genres">
+                            @foreach (var genre in b.Genres)
+                            {
+                                <span class="genre-pill">@genre</span>
+                            }
+                        </span>
+                    </li>
+                }
+            </ul>
+        }
+    </main>
+</div>
+
+@code {
+    [Parameter] public string? ReaderId { get; set; }
+
+    private List<ReaderSummary>? _readers;
+    private string? _readerError;
+
+    private List<RatedBook>? _books;
+    private string? _booksError;
+
+    private string CurrentReaderName =>
+        _readers?.FirstOrDefault(r => r.Id == ReaderId)?.Name ?? "This reader";
+
+    protected override Task OnInitializedAsync() => LoadReadersAsync();
+
+    protected override Task OnParametersSetAsync() =>
+        string.IsNullOrEmpty(ReaderId) ? Task.CompletedTask : LoadBooksAsync();
+
+    private async Task LoadReadersAsync()
+    {
+        _readerError = null; _readers = null;
+        StateHasChanged();
+        try { _readers = await ReaderRepo.GetAllReadersAsync(); }
+        catch (DatabaseUnavailableException ex) { _readerError = ex.Message; }
+    }
+
+    private async Task LoadBooksAsync()
+    {
+        _booksError = null; _books = null;
+        StateHasChanged();
+        try { _books = await ReaderRepo.GetReaderBooksAsync(ReaderId!); }
+        catch (DatabaseUnavailableException ex) { _booksError = ex.Message; }
+    }
+}
