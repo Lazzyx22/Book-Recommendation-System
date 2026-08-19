@@ -14,6 +14,7 @@ builder.Services.AddSingleton<IDriver>(sp =>
 });
 
 builder.Services.AddScoped<RecommendationRepository>();
+builder.Services.AddScoped<ReaderRepository>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

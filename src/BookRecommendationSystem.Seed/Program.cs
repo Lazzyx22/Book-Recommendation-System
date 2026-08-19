@@ -59,7 +59,7 @@ static async Task SeedGenresAsync(IAsyncSession session, List<GenreSeed> genres)
             UNWIND $genres AS g
             MERGE (:Genre {name: g.name})
             """,
-            new {genres = genres.Select(g => new { g.Name }) });
+            new { genres = genres.Select(g => new { name = g.Name }) });
     });
     Console.WriteLine($" Genres: {genres.Count}");
 }
@@ -72,7 +72,7 @@ static async Task SeedAuthorsAsync(IAsyncSession session, List<AuthorSeed> autho
             UNWIND $authors AS a
             MERGE (:Author {name: a.name})
             """,
-            new { authors = authors.Select(a => new { a.Name }) });
+            new { authors = authors.Select(a => new { name = a.Name }) });
     });
     Console.WriteLine($" Authors: {authors.Count}");
 }
@@ -130,8 +130,7 @@ static async Task SeedReaderAsync(IAsyncSession session, List<ReaderSeed> reader
             SET reader.name = r.name,
                 reader.joinedAt = r.joinedAt
             """,
-            new { readers = readers.Select(r => new { r.Id, r.Name, r.JoinedAt }) });
-
+            new { readers = readers.Select(r => new { id = r.Id, name = r.Name, joinedAt = r.JoinedAt }) });
     });
     Console.WriteLine($" Readers: {readers.Count}");
 }
@@ -144,7 +143,7 @@ static async Task SeedRatingAsync(IAsyncSession session, List<RatingSeed> rating
             UNWIND $ratings AS rt
             MATCH (reader:Reader {id: rt.readerId})
             MATCH (book:Book {id: rt.bookId})
-            MERGE (reader)- [r:RATED]->(book)
+            MERGE (reader)-[r:RATED]->(book)
             SET r.score = rt.score,
                 r.ratedAt = rt.ratedAt
             """,
@@ -152,10 +151,10 @@ static async Task SeedRatingAsync(IAsyncSession session, List<RatingSeed> rating
             {
                 ratings = ratings.Select(rt => new
                 {
-                    rt.ReaderId,
-                    rt.BookId,
-                    rt.Score,
-                    rt.RatedAt
+                    readerId = rt.ReaderId,
+                    bookId = rt.BookId,
+                    score = rt.Score,
+                    ratedAt = rt.RatedAt
                 })
             });
     });

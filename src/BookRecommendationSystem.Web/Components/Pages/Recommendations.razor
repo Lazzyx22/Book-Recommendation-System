@@ -1,43 +1,41 @@
 ﻿@page "/recommendations/{ReaderId}"
 @inject RecommendationRepository Repo
 @using BookRecommendationSystem.Data
+@using BookRecommendationSystem.Web.Components.Shared
 
 @if (_error is not null)
 {
-    <div class="db-unavailable-banner">
-        <p>@_error</p>
-        <button @onclick="LoadAsync">Retry</button>
-    </div>
+    <DbUnavailableBanner Message="@_error" OnRetry="LoadAsync" />
 }
 else if (_recs is null)
 {
-    <p>Loading recommendations…</p>
+    <LoadingSkeleton Rows="5" />
 }
 else if (_recs.Count == 0)
 {
-    <p>Not enough ratings yet to build recommendations for this reader.</p>
+    <div class="empty-state">
+        <p>Not enough ratings yet to build recommendations for this reader.</p>
+        <a href="/">← Back to all readers</a>
+    </div>
 }
 else
 {
+    <h2>Recommended for you</h2>
     <ul class="rec-list">
         @foreach (var rec in _recs)
         {
             <li class="rec-card">
                 <div class="rec-header" @onclick="() => Toggle(rec.Title)">
                     <strong>@rec.Title</strong>
-                    <span>@rec.AvgRating.ToString("0.0")★</span>
+                    <span class="rating-badge">@rec.AvgRating.ToString("0.0")★</span>
                     <span class="badge">@rec.Evidence.Count reader@(rec.Evidence.Count == 1 ? "" : "s") agree</span>
                 </div>
-
                 @if (_expanded.Contains(rec.Title))
                 {
                     <ul class="evidence-list">
                         @foreach (var ev in rec.Evidence)
                         {
-                            <li>
-                                <strong>@ev.ReaderName</strong> rated it @ev.Score★ —
-                                you both loved <em>@string.Join(", ", ev.SharedBooks.Take(2))</em>
-                            </li>
+                            <li><strong>@ev.ReaderName</strong> rated it @ev.Score★ — you both loved <em>@string.Join(", ", ev.SharedBooks.Take(2))</em></li>
                         }
                     </ul>
                 }
