@@ -1,0 +1,6216 @@
+{
+  "genres": [
+    {
+      "name": "Fantasy"
+    },
+    {
+      "name": "Science Fiction"
+    },
+    {
+      "name": "Mystery"
+    },
+    {
+      "name": "Romance"
+    },
+    {
+      "name": "Thriller"
+    },
+    {
+      "name": "Historical Fiction"
+    },
+    {
+      "name": "Non-Fiction"
+    },
+    {
+      "name": "Biography"
+    },
+    {
+      "name": "Horror"
+    },
+    {
+      "name": "Young Adult"
+    },
+    {
+      "name": "Literary Fiction"
+    },
+    {
+      "name": "Poetry"
+    },
+    {
+      "name": "Self-Help"
+    },
+    {
+      "name": "Classic"
+    },
+    {
+      "name": "Crime"
+    }
+  ],
+  "authors": [
+    {
+      "name": "J.R.R. Tolkien"
+    },
+    {
+      "name": "Ursula K. Le Guin"
+    },
+    {
+      "name": "Isaac Asimov"
+    },
+    {
+      "name": "Agatha Christie"
+    },
+    {
+      "name": "Jane Austen"
+    },
+    {
+      "name": "George Orwell"
+    },
+    {
+      "name": "Toni Morrison"
+    },
+    {
+      "name": "Gabriel Garcia Marquez"
+    },
+    {
+      "name": "Haruki Murakami"
+    },
+    {
+      "name": "Margaret Atwood"
+    },
+    {
+      "name": "Neil Gaiman"
+    },
+    {
+      "name": "Stephen King"
+    },
+    {
+      "name": "Chimamanda Ngozi Adichie"
+    },
+    {
+      "name": "Kazuo Ishiguro"
+    },
+    {
+      "name": "Octavia Butler"
+    },
+    {
+      "name": "Fyodor Dostoevsky"
+    },
+    {
+      "name": "Virginia Woolf"
+    },
+    {
+      "name": "Mark Twain"
+    },
+    {
+      "name": "Emily Bronte"
+    },
+    {
+      "name": "Franz Kafka"
+    },
+    {
+      "name": "Zadie Smith"
+    },
+    {
+      "name": "Cormac McCarthy"
+    },
+    {
+      "name": "N.K. Jemisin"
+    },
+    {
+      "name": "Yuval Noah Harari"
+    },
+    {
+      "name": "Michelle Obama"
+    }
+  ],
+  "books": [
+    {
+      "id": "b001",
+      "title": "The Hidden Garden",
+      "author": "J.R.R. Tolkien",
+      "publishedYear": 1965,
+      "genres": [
+        "Fantasy"
+      ],
+      "avgRating": 3.3
+    },
+    {
+      "id": "b002",
+      "title": "The Wandering Kingdom",
+      "author": "J.R.R. Tolkien",
+      "publishedYear": 2005,
+      "genres": [
+        "Fantasy",
+        "Crime"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b003",
+      "title": "The Forgotten Door",
+      "author": "J.R.R. Tolkien",
+      "publishedYear": 2007,
+      "genres": [
+        "Romance"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b004",
+      "title": "The Forgotten Library",
+      "author": "J.R.R. Tolkien",
+      "publishedYear": 2005,
+      "genres": [
+        "Fantasy",
+        "Self-Help"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b005",
+      "title": "The Ancient Song",
+      "author": "J.R.R. Tolkien",
+      "publishedYear": 1965,
+      "genres": [
+        "Romance"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b006",
+      "title": "The Hidden Kingdom",
+      "author": "J.R.R. Tolkien",
+      "publishedYear": 1978,
+      "genres": [
+        "Classic"
+      ],
+      "avgRating": 0.0
+    },
+    {
+      "id": "b007",
+      "title": "The Distant River",
+      "author": "Ursula K. Le Guin",
+      "publishedYear": 2023,
+      "genres": [
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "avgRating": 3.9
+    },
+    {
+      "id": "b008",
+      "title": "The Wandering Voyage",
+      "author": "Ursula K. Le Guin",
+      "publishedYear": 2010,
+      "genres": [
+        "Crime",
+        "Classic",
+        "Science Fiction"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b009",
+      "title": "The Broken River",
+      "author": "Ursula K. Le Guin",
+      "publishedYear": 2014,
+      "genres": [
+        "Science Fiction"
+      ],
+      "avgRating": 4.8
+    },
+    {
+      "id": "b010",
+      "title": "The Forgotten House",
+      "author": "Ursula K. Le Guin",
+      "publishedYear": 1978,
+      "genres": [
+        "Biography",
+        "Science Fiction"
+      ],
+      "avgRating": 4.1
+    },
+    {
+      "id": "b011",
+      "title": "The Endless Fire",
+      "author": "Ursula K. Le Guin",
+      "publishedYear": 1956,
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Poetry"
+      ],
+      "avgRating": 4.4
+    },
+    {
+      "id": "b012",
+      "title": "The Wandering Mountain",
+      "author": "Ursula K. Le Guin",
+      "publishedYear": 1950,
+      "genres": [
+        "Fantasy",
+        "Non-Fiction"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b013",
+      "title": "The Silent Mountain",
+      "author": "Isaac Asimov",
+      "publishedYear": 1934,
+      "genres": [
+        "Science Fiction",
+        "Thriller"
+      ],
+      "avgRating": 4.4
+    },
+    {
+      "id": "b014",
+      "title": "The Midnight Song",
+      "author": "Isaac Asimov",
+      "publishedYear": 1957,
+      "genres": [
+        "Non-Fiction",
+        "Biography",
+        "Science Fiction"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b015",
+      "title": "The Distant Road",
+      "author": "Isaac Asimov",
+      "publishedYear": 1961,
+      "genres": [
+        "Horror",
+        "Crime",
+        "Science Fiction"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b016",
+      "title": "The Endless Mountain",
+      "author": "Isaac Asimov",
+      "publishedYear": 1947,
+      "genres": [
+        "Science Fiction",
+        "Biography"
+      ],
+      "avgRating": 3.9
+    },
+    {
+      "id": "b017",
+      "title": "The Last City",
+      "author": "Isaac Asimov",
+      "publishedYear": 2017,
+      "genres": [
+        "Young Adult",
+        "Science Fiction"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b018",
+      "title": "The Restless Door",
+      "author": "Agatha Christie",
+      "publishedYear": 1962,
+      "genres": [
+        "Mystery",
+        "Classic",
+        "Crime"
+      ],
+      "avgRating": 3.4
+    },
+    {
+      "id": "b019",
+      "title": "The Quiet House",
+      "author": "Agatha Christie",
+      "publishedYear": 1967,
+      "genres": [
+        "Mystery",
+        "Crime"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b020",
+      "title": "The Faded City",
+      "author": "Agatha Christie",
+      "publishedYear": 1994,
+      "genres": [
+        "Classic"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b021",
+      "title": "The Faded Bridge",
+      "author": "Agatha Christie",
+      "publishedYear": 1955,
+      "genres": [
+        "Crime"
+      ],
+      "avgRating": 3.2
+    },
+    {
+      "id": "b022",
+      "title": "The Wandering Door",
+      "author": "Agatha Christie",
+      "publishedYear": 1930,
+      "genres": [
+        "Mystery",
+        "Biography",
+        "Crime"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b023",
+      "title": "The Crimson Mountain",
+      "author": "Agatha Christie",
+      "publishedYear": 1937,
+      "genres": [
+        "Mystery"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b024",
+      "title": "The Burning Kingdom",
+      "author": "Jane Austen",
+      "publishedYear": 1998,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 0.0
+    },
+    {
+      "id": "b025",
+      "title": "The Wandering City",
+      "author": "Jane Austen",
+      "publishedYear": 1963,
+      "genres": [
+        "Romance",
+        "Classic",
+        "Young Adult"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b026",
+      "title": "The Crimson Star",
+      "author": "Jane Austen",
+      "publishedYear": 2015,
+      "genres": [
+        "Biography",
+        "Classic",
+        "Historical Fiction"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b027",
+      "title": "The Forgotten Kingdom",
+      "author": "Jane Austen",
+      "publishedYear": 1973,
+      "genres": [
+        "Romance"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b028",
+      "title": "The Forgotten Garden",
+      "author": "George Orwell",
+      "publishedYear": 1939,
+      "genres": [
+        "Science Fiction",
+        "Classic",
+        "Literary Fiction"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b029",
+      "title": "The Quiet Kingdom",
+      "author": "George Orwell",
+      "publishedYear": 1995,
+      "genres": [
+        "Thriller"
+      ],
+      "avgRating": 4.8
+    },
+    {
+      "id": "b030",
+      "title": "The Winter Forest",
+      "author": "George Orwell",
+      "publishedYear": 1946,
+      "genres": [
+        "Young Adult",
+        "Crime",
+        "Classic"
+      ],
+      "avgRating": 4.4
+    },
+    {
+      "id": "b031",
+      "title": "The Burning Storm",
+      "author": "George Orwell",
+      "publishedYear": 1954,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b032",
+      "title": "The Endless Storm",
+      "author": "George Orwell",
+      "publishedYear": 1982,
+      "genres": [
+        "Classic",
+        "Non-Fiction"
+      ],
+      "avgRating": 4.5
+    },
+    {
+      "id": "b033",
+      "title": "The Hidden River",
+      "author": "George Orwell",
+      "publishedYear": 1981,
+      "genres": [
+        "Classic",
+        "Science Fiction",
+        "Self-Help"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b034",
+      "title": "The Wandering Library",
+      "author": "Toni Morrison",
+      "publishedYear": 1947,
+      "genres": [
+        "Thriller",
+        "Literary Fiction"
+      ],
+      "avgRating": 5.0
+    },
+    {
+      "id": "b035",
+      "title": "The Broken Library",
+      "author": "Toni Morrison",
+      "publishedYear": 2000,
+      "genres": [
+        "Fantasy"
+      ],
+      "avgRating": 3.3
+    },
+    {
+      "id": "b036",
+      "title": "The Shadow Kingdom",
+      "author": "Toni Morrison",
+      "publishedYear": 1960,
+      "genres": [
+        "Biography"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b037",
+      "title": "The Winter Star",
+      "author": "Toni Morrison",
+      "publishedYear": 1937,
+      "genres": [
+        "Fantasy"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b038",
+      "title": "The Restless Voyage",
+      "author": "Gabriel Garcia Marquez",
+      "publishedYear": 1984,
+      "genres": [
+        "Self-Help",
+        "Literary Fiction",
+        "Poetry"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b039",
+      "title": "The Crimson Sea",
+      "author": "Gabriel Garcia Marquez",
+      "publishedYear": 1937,
+      "genres": [
+        "Literary Fiction",
+        "Poetry",
+        "Classic"
+      ],
+      "avgRating": 3.4
+    },
+    {
+      "id": "b040",
+      "title": "The Silent River",
+      "author": "Gabriel Garcia Marquez",
+      "publishedYear": 2004,
+      "genres": [
+        "Horror",
+        "Literary Fiction"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b041",
+      "title": "The Silent Door",
+      "author": "Gabriel Garcia Marquez",
+      "publishedYear": 1940,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 0.0
+    },
+    {
+      "id": "b042",
+      "title": "The Forgotten Star",
+      "author": "Gabriel Garcia Marquez",
+      "publishedYear": 1945,
+      "genres": [
+        "Literary Fiction",
+        "Romance",
+        "Young Adult"
+      ],
+      "avgRating": 3.9
+    },
+    {
+      "id": "b043",
+      "title": "The Midnight Coast",
+      "author": "Haruki Murakami",
+      "publishedYear": 1996,
+      "genres": [
+        "Fantasy",
+        "Crime"
+      ],
+      "avgRating": 4.6
+    },
+    {
+      "id": "b044",
+      "title": "The Quiet Mountain",
+      "author": "Haruki Murakami",
+      "publishedYear": 1963,
+      "genres": [
+        "Mystery",
+        "Fantasy"
+      ],
+      "avgRating": 3.3
+    },
+    {
+      "id": "b045",
+      "title": "The Restless Song",
+      "author": "Haruki Murakami",
+      "publishedYear": 1939,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 0.0
+    },
+    {
+      "id": "b046",
+      "title": "The Broken Forest",
+      "author": "Haruki Murakami",
+      "publishedYear": 1957,
+      "genres": [
+        "Thriller",
+        "Literary Fiction",
+        "Mystery"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b047",
+      "title": "The Endless Voyage",
+      "author": "Haruki Murakami",
+      "publishedYear": 1950,
+      "genres": [
+        "Classic",
+        "Horror"
+      ],
+      "avgRating": 3.4
+    },
+    {
+      "id": "b048",
+      "title": "The Faded Garden",
+      "author": "Margaret Atwood",
+      "publishedYear": 2015,
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Literary Fiction"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b049",
+      "title": "The Hidden House",
+      "author": "Margaret Atwood",
+      "publishedYear": 2000,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b050",
+      "title": "The Quiet Sea",
+      "author": "Margaret Atwood",
+      "publishedYear": 2017,
+      "genres": [
+        "Thriller",
+        "Literary Fiction",
+        "Science Fiction"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b051",
+      "title": "The Broken Storm",
+      "author": "Margaret Atwood",
+      "publishedYear": 1965,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b052",
+      "title": "The Distant City",
+      "author": "Margaret Atwood",
+      "publishedYear": 1986,
+      "genres": [
+        "Science Fiction",
+        "Non-Fiction",
+        "Poetry"
+      ],
+      "avgRating": 4.4
+    },
+    {
+      "id": "b053",
+      "title": "The Last Forest",
+      "author": "Margaret Atwood",
+      "publishedYear": 1934,
+      "genres": [
+        "Literary Fiction",
+        "Horror"
+      ],
+      "avgRating": 3.5
+    },
+    {
+      "id": "b054",
+      "title": "The Silent Voyage",
+      "author": "Neil Gaiman",
+      "publishedYear": 1976,
+      "genres": [
+        "Horror"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b055",
+      "title": "The Endless Forest",
+      "author": "Neil Gaiman",
+      "publishedYear": 1982,
+      "genres": [
+        "Horror",
+        "Fantasy",
+        "Poetry"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b056",
+      "title": "The Ancient Garden",
+      "author": "Neil Gaiman",
+      "publishedYear": 1952,
+      "genres": [
+        "Historical Fiction",
+        "Crime",
+        "Fantasy"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b057",
+      "title": "The Hidden Star",
+      "author": "Neil Gaiman",
+      "publishedYear": 1934,
+      "genres": [
+        "Crime",
+        "Horror"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b058",
+      "title": "The Forgotten Mountain",
+      "author": "Stephen King",
+      "publishedYear": 1933,
+      "genres": [
+        "Romance",
+        "Thriller",
+        "Horror"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b059",
+      "title": "The Distant Fire",
+      "author": "Stephen King",
+      "publishedYear": 2012,
+      "genres": [
+        "Non-Fiction",
+        "Horror",
+        "Literary Fiction"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b060",
+      "title": "The Midnight Letters",
+      "author": "Stephen King",
+      "publishedYear": 1934,
+      "genres": [
+        "Young Adult"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b061",
+      "title": "The Quiet Storm",
+      "author": "Stephen King",
+      "publishedYear": 2007,
+      "genres": [
+        "Thriller",
+        "Non-Fiction",
+        "Horror"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b062",
+      "title": "The Faded Forest",
+      "author": "Stephen King",
+      "publishedYear": 2017,
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Poetry"
+      ],
+      "avgRating": 4.5
+    },
+    {
+      "id": "b063",
+      "title": "The Quiet Bridge",
+      "author": "Chimamanda Ngozi Adichie",
+      "publishedYear": 1970,
+      "genres": [
+        "Classic",
+        "Science Fiction",
+        "Non-Fiction"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b064",
+      "title": "The Secret Voyage",
+      "author": "Chimamanda Ngozi Adichie",
+      "publishedYear": 2000,
+      "genres": [
+        "Romance"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b065",
+      "title": "The Secret City",
+      "author": "Chimamanda Ngozi Adichie",
+      "publishedYear": 2008,
+      "genres": [
+        "Thriller",
+        "Literary Fiction",
+        "Non-Fiction"
+      ],
+      "avgRating": 4.1
+    },
+    {
+      "id": "b066",
+      "title": "The Ancient Coast",
+      "author": "Chimamanda Ngozi Adichie",
+      "publishedYear": 2007,
+      "genres": [
+        "Biography",
+        "Non-Fiction",
+        "Literary Fiction"
+      ],
+      "avgRating": 4.6
+    },
+    {
+      "id": "b067",
+      "title": "The Burning City",
+      "author": "Kazuo Ishiguro",
+      "publishedYear": 2014,
+      "genres": [
+        "Thriller"
+      ],
+      "avgRating": 4.3
+    },
+    {
+      "id": "b068",
+      "title": "The Broken Mountain",
+      "author": "Kazuo Ishiguro",
+      "publishedYear": 2016,
+      "genres": [
+        "Science Fiction",
+        "Literary Fiction"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b069",
+      "title": "The Shadow River",
+      "author": "Kazuo Ishiguro",
+      "publishedYear": 1961,
+      "genres": [
+        "Literary Fiction",
+        "Science Fiction"
+      ],
+      "avgRating": 3.2
+    },
+    {
+      "id": "b070",
+      "title": "The Burning Star",
+      "author": "Kazuo Ishiguro",
+      "publishedYear": 1961,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 5.0
+    },
+    {
+      "id": "b071",
+      "title": "The Hidden Storm",
+      "author": "Kazuo Ishiguro",
+      "publishedYear": 1958,
+      "genres": [
+        "Poetry"
+      ],
+      "avgRating": 4.5
+    },
+    {
+      "id": "b072",
+      "title": "The Silent Forest",
+      "author": "Kazuo Ishiguro",
+      "publishedYear": 1961,
+      "genres": [
+        "Mystery"
+      ],
+      "avgRating": 3.5
+    },
+    {
+      "id": "b073",
+      "title": "The Silver Song",
+      "author": "Octavia Butler",
+      "publishedYear": 1986,
+      "genres": [
+        "Poetry",
+        "Classic",
+        "Fantasy"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b074",
+      "title": "The Golden Mirror",
+      "author": "Octavia Butler",
+      "publishedYear": 1987,
+      "genres": [
+        "Self-Help",
+        "Romance"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b075",
+      "title": "The Burning Mountain",
+      "author": "Octavia Butler",
+      "publishedYear": 1965,
+      "genres": [
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "avgRating": 4.3
+    },
+    {
+      "id": "b076",
+      "title": "The Distant Song",
+      "author": "Octavia Butler",
+      "publishedYear": 1970,
+      "genres": [
+        "Science Fiction",
+        "Mystery",
+        "Fantasy"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b077",
+      "title": "The Last Sea",
+      "author": "Octavia Butler",
+      "publishedYear": 1938,
+      "genres": [
+        "Historical Fiction",
+        "Fantasy"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b078",
+      "title": "The Silent Sea",
+      "author": "Octavia Butler",
+      "publishedYear": 1983,
+      "genres": [
+        "Science Fiction",
+        "Crime"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b079",
+      "title": "The Burning Garden",
+      "author": "Fyodor Dostoevsky",
+      "publishedYear": 1975,
+      "genres": [
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "avgRating": 3.4
+    },
+    {
+      "id": "b080",
+      "title": "The Wandering Bridge",
+      "author": "Fyodor Dostoevsky",
+      "publishedYear": 1958,
+      "genres": [
+        "Thriller",
+        "Literary Fiction"
+      ],
+      "avgRating": 3.7
+    },
+    {
+      "id": "b081",
+      "title": "The Shadow Star",
+      "author": "Fyodor Dostoevsky",
+      "publishedYear": 1973,
+      "genres": [
+        "Literary Fiction",
+        "Classic",
+        "Self-Help"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b082",
+      "title": "The Last Bridge",
+      "author": "Fyodor Dostoevsky",
+      "publishedYear": 1998,
+      "genres": [
+        "Classic"
+      ],
+      "avgRating": 5.0
+    },
+    {
+      "id": "b083",
+      "title": "The Last Library",
+      "author": "Fyodor Dostoevsky",
+      "publishedYear": 1953,
+      "genres": [
+        "Thriller"
+      ],
+      "avgRating": 1.0
+    },
+    {
+      "id": "b084",
+      "title": "The Quiet Star",
+      "author": "Virginia Woolf",
+      "publishedYear": 1965,
+      "genres": [
+        "Classic",
+        "Literary Fiction"
+      ],
+      "avgRating": 2.0
+    },
+    {
+      "id": "b085",
+      "title": "The Shadow Forest",
+      "author": "Virginia Woolf",
+      "publishedYear": 1936,
+      "genres": [
+        "Classic",
+        "Romance"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b086",
+      "title": "The Shadow Mountain",
+      "author": "Virginia Woolf",
+      "publishedYear": 1955,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 0.0
+    },
+    {
+      "id": "b087",
+      "title": "The Last Mirror",
+      "author": "Virginia Woolf",
+      "publishedYear": 2015,
+      "genres": [
+        "Romance"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b088",
+      "title": "The Golden Bridge",
+      "author": "Mark Twain",
+      "publishedYear": 2007,
+      "genres": [
+        "Non-Fiction",
+        "Science Fiction",
+        "Classic"
+      ],
+      "avgRating": 3.6
+    },
+    {
+      "id": "b089",
+      "title": "The Midnight Garden",
+      "author": "Mark Twain",
+      "publishedYear": 1969,
+      "genres": [
+        "Non-Fiction",
+        "Classic",
+        "Literary Fiction"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b090",
+      "title": "The Midnight Mountain",
+      "author": "Mark Twain",
+      "publishedYear": 1943,
+      "genres": [
+        "Classic",
+        "Self-Help",
+        "Thriller"
+      ],
+      "avgRating": 4.7
+    },
+    {
+      "id": "b091",
+      "title": "The Ancient Fire",
+      "author": "Mark Twain",
+      "publishedYear": 1938,
+      "genres": [
+        "Classic",
+        "Non-Fiction",
+        "Literary Fiction"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b092",
+      "title": "The Endless Library",
+      "author": "Mark Twain",
+      "publishedYear": 2020,
+      "genres": [
+        "Mystery"
+      ],
+      "avgRating": 2.8
+    },
+    {
+      "id": "b093",
+      "title": "The Faded Letters",
+      "author": "Mark Twain",
+      "publishedYear": 2008,
+      "genres": [
+        "Biography",
+        "Non-Fiction",
+        "Self-Help"
+      ],
+      "avgRating": 4.5
+    },
+    {
+      "id": "b094",
+      "title": "The Distant Library",
+      "author": "Emily Bronte",
+      "publishedYear": 1961,
+      "genres": [
+        "Crime",
+        "Romance"
+      ],
+      "avgRating": 4.1
+    },
+    {
+      "id": "b095",
+      "title": "The Shadow Mirror",
+      "author": "Emily Bronte",
+      "publishedYear": 1971,
+      "genres": [
+        "Romance"
+      ],
+      "avgRating": 4.5
+    },
+    {
+      "id": "b096",
+      "title": "The Distant Bridge",
+      "author": "Emily Bronte",
+      "publishedYear": 2019,
+      "genres": [
+        "Romance",
+        "Classic"
+      ],
+      "avgRating": 3.3
+    },
+    {
+      "id": "b097",
+      "title": "The Forgotten Storm",
+      "author": "Emily Bronte",
+      "publishedYear": 1992,
+      "genres": [
+        "Self-Help",
+        "Romance",
+        "Classic"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b098",
+      "title": "The Restless Garden",
+      "author": "Emily Bronte",
+      "publishedYear": 1941,
+      "genres": [
+        "Non-Fiction",
+        "Classic"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b099",
+      "title": "The Midnight Fire",
+      "author": "Franz Kafka",
+      "publishedYear": 1990,
+      "genres": [
+        "Historical Fiction",
+        "Horror",
+        "Literary Fiction"
+      ],
+      "avgRating": 4.3
+    },
+    {
+      "id": "b100",
+      "title": "The Distant Voyage",
+      "author": "Franz Kafka",
+      "publishedYear": 1962,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 3.0
+    },
+    {
+      "id": "b101",
+      "title": "The Winter Sea",
+      "author": "Franz Kafka",
+      "publishedYear": 1991,
+      "genres": [
+        "Poetry",
+        "Classic"
+      ],
+      "avgRating": 2.7
+    },
+    {
+      "id": "b102",
+      "title": "The Winter Voyage",
+      "author": "Franz Kafka",
+      "publishedYear": 1959,
+      "genres": [
+        "Classic",
+        "Mystery"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b103",
+      "title": "The Wandering Road",
+      "author": "Franz Kafka",
+      "publishedYear": 1965,
+      "genres": [
+        "Fantasy"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b104",
+      "title": "The Midnight Voyage",
+      "author": "Zadie Smith",
+      "publishedYear": 1990,
+      "genres": [
+        "Young Adult",
+        "Literary Fiction"
+      ],
+      "avgRating": 3.8
+    },
+    {
+      "id": "b105",
+      "title": "The Distant Mirror",
+      "author": "Zadie Smith",
+      "publishedYear": 1944,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b106",
+      "title": "The Midnight River",
+      "author": "Zadie Smith",
+      "publishedYear": 1949,
+      "genres": [
+        "Young Adult"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b107",
+      "title": "The Hidden Forest",
+      "author": "Zadie Smith",
+      "publishedYear": 1983,
+      "genres": [
+        "Self-Help",
+        "Literary Fiction",
+        "Young Adult"
+      ],
+      "avgRating": 4.2
+    },
+    {
+      "id": "b108",
+      "title": "The Restless Library",
+      "author": "Zadie Smith",
+      "publishedYear": 1968,
+      "genres": [
+        "Literary Fiction",
+        "Non-Fiction",
+        "Thriller"
+      ],
+      "avgRating": 4.6
+    },
+    {
+      "id": "b109",
+      "title": "The Distant Kingdom",
+      "author": "Zadie Smith",
+      "publishedYear": 1950,
+      "genres": [
+        "Literary Fiction"
+      ],
+      "avgRating": 0.0
+    },
+    {
+      "id": "b110",
+      "title": "The Shadow Storm",
+      "author": "Cormac McCarthy",
+      "publishedYear": 1987,
+      "genres": [
+        "Crime",
+        "Literary Fiction",
+        "Young Adult"
+      ],
+      "avgRating": 4.5
+    },
+    {
+      "id": "b111",
+      "title": "The Crimson Voyage",
+      "author": "Cormac McCarthy",
+      "publishedYear": 2019,
+      "genres": [
+        "Thriller",
+        "Science Fiction"
+      ],
+      "avgRating": 4.3
+    },
+    {
+      "id": "b112",
+      "title": "The Midnight Sea",
+      "author": "Cormac McCarthy",
+      "publishedYear": 1984,
+      "genres": [
+        "Thriller"
+      ],
+      "avgRating": 0.0
+    },
+    {
+      "id": "b113",
+      "title": "The Golden Voyage",
+      "author": "Cormac McCarthy",
+      "publishedYear": 2006,
+      "genres": [
+        "Crime",
+        "Classic",
+        "Literary Fiction"
+      ],
+      "avgRating": 4.5
+    },
+    {
+      "id": "b114",
+      "title": "The Distant Door",
+      "author": "N.K. Jemisin",
+      "publishedYear": 1999,
+      "genres": [
+        "Biography",
+        "Fantasy"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b115",
+      "title": "The Silver Letters",
+      "author": "N.K. Jemisin",
+      "publishedYear": 1933,
+      "genres": [
+        "Fantasy"
+      ],
+      "avgRating": 5.0
+    },
+    {
+      "id": "b116",
+      "title": "The Distant Coast",
+      "author": "N.K. Jemisin",
+      "publishedYear": 1935,
+      "genres": [
+        "Horror"
+      ],
+      "avgRating": 3.2
+    },
+    {
+      "id": "b117",
+      "title": "The Midnight Storm",
+      "author": "N.K. Jemisin",
+      "publishedYear": 2011,
+      "genres": [
+        "Science Fiction",
+        "Biography"
+      ],
+      "avgRating": 4.0
+    },
+    {
+      "id": "b118",
+      "title": "The Quiet Song",
+      "author": "N.K. Jemisin",
+      "publishedYear": 2015,
+      "genres": [
+        "Classic"
+      ],
+      "avgRating": 5.0
+    },
+    {
+      "id": "b119",
+      "title": "The Burning Voyage",
+      "author": "Yuval Noah Harari",
+      "publishedYear": 2014,
+      "genres": [
+        "Non-Fiction",
+        "Biography"
+      ],
+      "avgRating": 3.5
+    },
+    {
+      "id": "b120",
+      "title": "The Broken Song",
+      "author": "Yuval Noah Harari",
+      "publishedYear": 1962,
+      "genres": [
+        "Self-Help",
+        "Science Fiction"
+      ],
+      "avgRating": 3.4
+    }
+  ],
+  "readers": [
+    {
+      "id": "r001",
+      "name": "Aarav",
+      "joinedAt": "2023-11-26"
+    },
+    {
+      "id": "r002",
+      "name": "Priya",
+      "joinedAt": "2023-07-13"
+    },
+    {
+      "id": "r003",
+      "name": "Rohan",
+      "joinedAt": "2023-09-02"
+    },
+    {
+      "id": "r004",
+      "name": "Ananya",
+      "joinedAt": "2024-08-08"
+    },
+    {
+      "id": "r005",
+      "name": "Vikram",
+      "joinedAt": "2024-01-28"
+    },
+    {
+      "id": "r006",
+      "name": "Neha",
+      "joinedAt": "2023-08-28"
+    },
+    {
+      "id": "r007",
+      "name": "Karan",
+      "joinedAt": "2024-02-25"
+    },
+    {
+      "id": "r008",
+      "name": "Isha",
+      "joinedAt": "2023-02-14"
+    },
+    {
+      "id": "r009",
+      "name": "Arjun",
+      "joinedAt": "2023-11-22"
+    },
+    {
+      "id": "r010",
+      "name": "Meera",
+      "joinedAt": "2024-04-29"
+    },
+    {
+      "id": "r011",
+      "name": "Sanjay",
+      "joinedAt": "2024-01-26"
+    },
+    {
+      "id": "r012",
+      "name": "Divya",
+      "joinedAt": "2024-01-31"
+    },
+    {
+      "id": "r013",
+      "name": "Rahul",
+      "joinedAt": "2023-06-05"
+    },
+    {
+      "id": "r014",
+      "name": "Pooja",
+      "joinedAt": "2024-05-22"
+    },
+    {
+      "id": "r015",
+      "name": "Aditya",
+      "joinedAt": "2023-02-07"
+    },
+    {
+      "id": "r016",
+      "name": "Sneha",
+      "joinedAt": "2023-05-10"
+    },
+    {
+      "id": "r017",
+      "name": "Vivek",
+      "joinedAt": "2024-05-29"
+    },
+    {
+      "id": "r018",
+      "name": "Kavya",
+      "joinedAt": "2023-12-06"
+    },
+    {
+      "id": "r019",
+      "name": "Nikhil",
+      "joinedAt": "2023-04-13"
+    },
+    {
+      "id": "r020",
+      "name": "Ritu",
+      "joinedAt": "2024-03-26"
+    },
+    {
+      "id": "r021",
+      "name": "Amit",
+      "joinedAt": "2023-04-13"
+    },
+    {
+      "id": "r022",
+      "name": "Simran",
+      "joinedAt": "2024-06-22"
+    },
+    {
+      "id": "r023",
+      "name": "Rajesh",
+      "joinedAt": "2024-04-12"
+    },
+    {
+      "id": "r024",
+      "name": "Tanya",
+      "joinedAt": "2023-01-16"
+    },
+    {
+      "id": "r025",
+      "name": "Manoj",
+      "joinedAt": "2023-05-28"
+    },
+    {
+      "id": "r026",
+      "name": "Shreya",
+      "joinedAt": "2024-02-24"
+    },
+    {
+      "id": "r027",
+      "name": "Deepak",
+      "joinedAt": "2023-06-08"
+    },
+    {
+      "id": "r028",
+      "name": "Anjali",
+      "joinedAt": "2023-03-18"
+    },
+    {
+      "id": "r029",
+      "name": "Suresh",
+      "joinedAt": "2024-04-25"
+    },
+    {
+      "id": "r030",
+      "name": "Priyanka",
+      "joinedAt": "2023-09-29"
+    },
+    {
+      "id": "r031",
+      "name": "Ravi",
+      "joinedAt": "2023-12-13"
+    },
+    {
+      "id": "r032",
+      "name": "Nisha",
+      "joinedAt": "2024-02-12"
+    },
+    {
+      "id": "r033",
+      "name": "Gaurav",
+      "joinedAt": "2023-03-24"
+    },
+    {
+      "id": "r034",
+      "name": "Swati",
+      "joinedAt": "2023-12-03"
+    },
+    {
+      "id": "r035",
+      "name": "Kunal",
+      "joinedAt": "2024-06-30"
+    },
+    {
+      "id": "r036",
+      "name": "Preeti",
+      "joinedAt": "2024-01-25"
+    },
+    {
+      "id": "r037",
+      "name": "Ashok",
+      "joinedAt": "2023-11-21"
+    },
+    {
+      "id": "r038",
+      "name": "Ritika",
+      "joinedAt": "2024-05-14"
+    },
+    {
+      "id": "r039",
+      "name": "Varun",
+      "joinedAt": "2024-07-08"
+    },
+    {
+      "id": "r040",
+      "name": "Sonal",
+      "joinedAt": "2023-02-06"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "rt0001",
+      "readerId": "r001",
+      "bookId": "b071",
+      "score": 5,
+      "ratedAt": "2024-08-02"
+    },
+    {
+      "id": "rt0002",
+      "readerId": "r001",
+      "bookId": "b069",
+      "score": 4,
+      "ratedAt": "2023-07-04"
+    },
+    {
+      "id": "rt0003",
+      "readerId": "r001",
+      "bookId": "b048",
+      "score": 2,
+      "ratedAt": "2023-03-22"
+    },
+    {
+      "id": "rt0004",
+      "readerId": "r001",
+      "bookId": "b063",
+      "score": 4,
+      "ratedAt": "2024-01-27"
+    },
+    {
+      "id": "rt0005",
+      "readerId": "r001",
+      "bookId": "b078",
+      "score": 4,
+      "ratedAt": "2023-09-04"
+    },
+    {
+      "id": "rt0006",
+      "readerId": "r001",
+      "bookId": "b052",
+      "score": 4,
+      "ratedAt": "2024-08-20"
+    },
+    {
+      "id": "rt0007",
+      "readerId": "r001",
+      "bookId": "b014",
+      "score": 2,
+      "ratedAt": "2024-04-17"
+    },
+    {
+      "id": "rt0008",
+      "readerId": "r001",
+      "bookId": "b062",
+      "score": 5,
+      "ratedAt": "2024-04-15"
+    },
+    {
+      "id": "rt0009",
+      "readerId": "r001",
+      "bookId": "b088",
+      "score": 2,
+      "ratedAt": "2023-01-10"
+    },
+    {
+      "id": "rt0010",
+      "readerId": "r001",
+      "bookId": "b007",
+      "score": 5,
+      "ratedAt": "2024-04-21"
+    },
+    {
+      "id": "rt0011",
+      "readerId": "r001",
+      "bookId": "b011",
+      "score": 5,
+      "ratedAt": "2024-11-24"
+    },
+    {
+      "id": "rt0012",
+      "readerId": "r001",
+      "bookId": "b038",
+      "score": 5,
+      "ratedAt": "2023-03-17"
+    },
+    {
+      "id": "rt0013",
+      "readerId": "r001",
+      "bookId": "b008",
+      "score": 3,
+      "ratedAt": "2023-12-20"
+    },
+    {
+      "id": "rt0014",
+      "readerId": "r001",
+      "bookId": "b111",
+      "score": 5,
+      "ratedAt": "2023-11-03"
+    },
+    {
+      "id": "rt0015",
+      "readerId": "r001",
+      "bookId": "b068",
+      "score": 4,
+      "ratedAt": "2024-03-10"
+    },
+    {
+      "id": "rt0016",
+      "readerId": "r001",
+      "bookId": "b009",
+      "score": 4,
+      "ratedAt": "2024-04-12"
+    },
+    {
+      "id": "rt0017",
+      "readerId": "r001",
+      "bookId": "b016",
+      "score": 5,
+      "ratedAt": "2023-07-23"
+    },
+    {
+      "id": "rt0018",
+      "readerId": "r001",
+      "bookId": "b120",
+      "score": 5,
+      "ratedAt": "2024-05-09"
+    },
+    {
+      "id": "rt0019",
+      "readerId": "r001",
+      "bookId": "b039",
+      "score": 3,
+      "ratedAt": "2024-01-26"
+    },
+    {
+      "id": "rt0020",
+      "readerId": "r001",
+      "bookId": "b076",
+      "score": 3,
+      "ratedAt": "2024-08-11"
+    },
+    {
+      "id": "rt0021",
+      "readerId": "r002",
+      "bookId": "b011",
+      "score": 5,
+      "ratedAt": "2024-10-04"
+    },
+    {
+      "id": "rt0022",
+      "readerId": "r002",
+      "bookId": "b055",
+      "score": 4,
+      "ratedAt": "2023-11-13"
+    },
+    {
+      "id": "rt0023",
+      "readerId": "r002",
+      "bookId": "b080",
+      "score": 5,
+      "ratedAt": "2023-02-04"
+    },
+    {
+      "id": "rt0024",
+      "readerId": "r002",
+      "bookId": "b061",
+      "score": 5,
+      "ratedAt": "2023-05-15"
+    },
+    {
+      "id": "rt0025",
+      "readerId": "r002",
+      "bookId": "b101",
+      "score": 1,
+      "ratedAt": "2023-10-30"
+    },
+    {
+      "id": "rt0026",
+      "readerId": "r002",
+      "bookId": "b038",
+      "score": 3,
+      "ratedAt": "2024-03-01"
+    },
+    {
+      "id": "rt0027",
+      "readerId": "r002",
+      "bookId": "b013",
+      "score": 4,
+      "ratedAt": "2023-05-16"
+    },
+    {
+      "id": "rt0028",
+      "readerId": "r002",
+      "bookId": "b108",
+      "score": 5,
+      "ratedAt": "2024-01-10"
+    },
+    {
+      "id": "rt0029",
+      "readerId": "r002",
+      "bookId": "b062",
+      "score": 5,
+      "ratedAt": "2023-10-07"
+    },
+    {
+      "id": "rt0030",
+      "readerId": "r002",
+      "bookId": "b058",
+      "score": 5,
+      "ratedAt": "2023-09-21"
+    },
+    {
+      "id": "rt0031",
+      "readerId": "r002",
+      "bookId": "b111",
+      "score": 5,
+      "ratedAt": "2024-05-08"
+    },
+    {
+      "id": "rt0032",
+      "readerId": "r002",
+      "bookId": "b071",
+      "score": 5,
+      "ratedAt": "2023-10-30"
+    },
+    {
+      "id": "rt0033",
+      "readerId": "r002",
+      "bookId": "b048",
+      "score": 5,
+      "ratedAt": "2023-12-13"
+    },
+    {
+      "id": "rt0034",
+      "readerId": "r002",
+      "bookId": "b034",
+      "score": 5,
+      "ratedAt": "2024-04-24"
+    },
+    {
+      "id": "rt0035",
+      "readerId": "r002",
+      "bookId": "b065",
+      "score": 5,
+      "ratedAt": "2023-05-25"
+    },
+    {
+      "id": "rt0036",
+      "readerId": "r002",
+      "bookId": "b067",
+      "score": 5,
+      "ratedAt": "2023-08-20"
+    },
+    {
+      "id": "rt0037",
+      "readerId": "r002",
+      "bookId": "b046",
+      "score": 5,
+      "ratedAt": "2024-11-21"
+    },
+    {
+      "id": "rt0038",
+      "readerId": "r002",
+      "bookId": "b029",
+      "score": 5,
+      "ratedAt": "2024-07-24"
+    },
+    {
+      "id": "rt0039",
+      "readerId": "r003",
+      "bookId": "b026",
+      "score": 4,
+      "ratedAt": "2023-03-06"
+    },
+    {
+      "id": "rt0040",
+      "readerId": "r003",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-04-20"
+    },
+    {
+      "id": "rt0041",
+      "readerId": "r003",
+      "bookId": "b050",
+      "score": 5,
+      "ratedAt": "2023-11-06"
+    },
+    {
+      "id": "rt0042",
+      "readerId": "r003",
+      "bookId": "b099",
+      "score": 5,
+      "ratedAt": "2023-04-30"
+    },
+    {
+      "id": "rt0043",
+      "readerId": "r003",
+      "bookId": "b028",
+      "score": 2,
+      "ratedAt": "2023-02-08"
+    },
+    {
+      "id": "rt0044",
+      "readerId": "r003",
+      "bookId": "b015",
+      "score": 3,
+      "ratedAt": "2024-05-19"
+    },
+    {
+      "id": "rt0045",
+      "readerId": "r003",
+      "bookId": "b069",
+      "score": 2,
+      "ratedAt": "2023-08-29"
+    },
+    {
+      "id": "rt0046",
+      "readerId": "r003",
+      "bookId": "b075",
+      "score": 5,
+      "ratedAt": "2023-05-19"
+    },
+    {
+      "id": "rt0047",
+      "readerId": "r003",
+      "bookId": "b117",
+      "score": 3,
+      "ratedAt": "2024-01-15"
+    },
+    {
+      "id": "rt0048",
+      "readerId": "r003",
+      "bookId": "b052",
+      "score": 4,
+      "ratedAt": "2024-07-07"
+    },
+    {
+      "id": "rt0049",
+      "readerId": "r003",
+      "bookId": "b016",
+      "score": 3,
+      "ratedAt": "2023-06-08"
+    },
+    {
+      "id": "rt0050",
+      "readerId": "r003",
+      "bookId": "b076",
+      "score": 5,
+      "ratedAt": "2024-11-01"
+    },
+    {
+      "id": "rt0051",
+      "readerId": "r003",
+      "bookId": "b088",
+      "score": 1,
+      "ratedAt": "2024-05-16"
+    },
+    {
+      "id": "rt0052",
+      "readerId": "r003",
+      "bookId": "b010",
+      "score": 4,
+      "ratedAt": "2023-10-14"
+    },
+    {
+      "id": "rt0053",
+      "readerId": "r003",
+      "bookId": "b033",
+      "score": 1,
+      "ratedAt": "2024-01-15"
+    },
+    {
+      "id": "rt0054",
+      "readerId": "r003",
+      "bookId": "b120",
+      "score": 2,
+      "ratedAt": "2024-03-31"
+    },
+    {
+      "id": "rt0055",
+      "readerId": "r003",
+      "bookId": "b013",
+      "score": 5,
+      "ratedAt": "2024-01-07"
+    },
+    {
+      "id": "rt0056",
+      "readerId": "r003",
+      "bookId": "b068",
+      "score": 1,
+      "ratedAt": "2024-01-12"
+    },
+    {
+      "id": "rt0057",
+      "readerId": "r003",
+      "bookId": "b008",
+      "score": 3,
+      "ratedAt": "2024-10-22"
+    },
+    {
+      "id": "rt0058",
+      "readerId": "r003",
+      "bookId": "b063",
+      "score": 3,
+      "ratedAt": "2024-02-12"
+    },
+    {
+      "id": "rt0059",
+      "readerId": "r004",
+      "bookId": "b097",
+      "score": 4,
+      "ratedAt": "2023-07-30"
+    },
+    {
+      "id": "rt0060",
+      "readerId": "r004",
+      "bookId": "b094",
+      "score": 1,
+      "ratedAt": "2024-07-21"
+    },
+    {
+      "id": "rt0061",
+      "readerId": "r004",
+      "bookId": "b087",
+      "score": 2,
+      "ratedAt": "2023-08-10"
+    },
+    {
+      "id": "rt0062",
+      "readerId": "r004",
+      "bookId": "b090",
+      "score": 5,
+      "ratedAt": "2023-08-27"
+    },
+    {
+      "id": "rt0063",
+      "readerId": "r004",
+      "bookId": "b029",
+      "score": 4,
+      "ratedAt": "2023-06-01"
+    },
+    {
+      "id": "rt0064",
+      "readerId": "r004",
+      "bookId": "b027",
+      "score": 4,
+      "ratedAt": "2024-09-02"
+    },
+    {
+      "id": "rt0065",
+      "readerId": "r004",
+      "bookId": "b050",
+      "score": 3,
+      "ratedAt": "2023-05-29"
+    },
+    {
+      "id": "rt0066",
+      "readerId": "r004",
+      "bookId": "b025",
+      "score": 5,
+      "ratedAt": "2024-07-07"
+    },
+    {
+      "id": "rt0067",
+      "readerId": "r004",
+      "bookId": "b064",
+      "score": 2,
+      "ratedAt": "2023-06-28"
+    },
+    {
+      "id": "rt0068",
+      "readerId": "r004",
+      "bookId": "b005",
+      "score": 2,
+      "ratedAt": "2023-01-27"
+    },
+    {
+      "id": "rt0069",
+      "readerId": "r004",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-01-02"
+    },
+    {
+      "id": "rt0070",
+      "readerId": "r004",
+      "bookId": "b013",
+      "score": 5,
+      "ratedAt": "2023-09-01"
+    },
+    {
+      "id": "rt0071",
+      "readerId": "r004",
+      "bookId": "b065",
+      "score": 5,
+      "ratedAt": "2023-01-17"
+    },
+    {
+      "id": "rt0072",
+      "readerId": "r004",
+      "bookId": "b058",
+      "score": 4,
+      "ratedAt": "2023-02-23"
+    },
+    {
+      "id": "rt0073",
+      "readerId": "r004",
+      "bookId": "b046",
+      "score": 4,
+      "ratedAt": "2024-03-07"
+    },
+    {
+      "id": "rt0074",
+      "readerId": "r005",
+      "bookId": "b076",
+      "score": 4,
+      "ratedAt": "2024-06-09"
+    },
+    {
+      "id": "rt0075",
+      "readerId": "r005",
+      "bookId": "b069",
+      "score": 3,
+      "ratedAt": "2024-04-07"
+    },
+    {
+      "id": "rt0076",
+      "readerId": "r006",
+      "bookId": "b096",
+      "score": 5,
+      "ratedAt": "2023-03-17"
+    },
+    {
+      "id": "rt0077",
+      "readerId": "r006",
+      "bookId": "b094",
+      "score": 5,
+      "ratedAt": "2023-11-26"
+    },
+    {
+      "id": "rt0078",
+      "readerId": "r006",
+      "bookId": "b042",
+      "score": 4,
+      "ratedAt": "2023-03-09"
+    },
+    {
+      "id": "rt0079",
+      "readerId": "r006",
+      "bookId": "b061",
+      "score": 4,
+      "ratedAt": "2024-10-01"
+    },
+    {
+      "id": "rt0080",
+      "readerId": "r006",
+      "bookId": "b025",
+      "score": 4,
+      "ratedAt": "2024-07-15"
+    },
+    {
+      "id": "rt0081",
+      "readerId": "r006",
+      "bookId": "b015",
+      "score": 5,
+      "ratedAt": "2024-01-26"
+    },
+    {
+      "id": "rt0082",
+      "readerId": "r006",
+      "bookId": "b040",
+      "score": 5,
+      "ratedAt": "2024-06-27"
+    },
+    {
+      "id": "rt0083",
+      "readerId": "r006",
+      "bookId": "b027",
+      "score": 2,
+      "ratedAt": "2024-06-01"
+    },
+    {
+      "id": "rt0084",
+      "readerId": "r006",
+      "bookId": "b003",
+      "score": 4,
+      "ratedAt": "2023-04-12"
+    },
+    {
+      "id": "rt0085",
+      "readerId": "r006",
+      "bookId": "b005",
+      "score": 4,
+      "ratedAt": "2023-04-28"
+    },
+    {
+      "id": "rt0086",
+      "readerId": "r006",
+      "bookId": "b099",
+      "score": 5,
+      "ratedAt": "2024-10-28"
+    },
+    {
+      "id": "rt0087",
+      "readerId": "r006",
+      "bookId": "b074",
+      "score": 5,
+      "ratedAt": "2024-07-18"
+    },
+    {
+      "id": "rt0088",
+      "readerId": "r006",
+      "bookId": "b058",
+      "score": 5,
+      "ratedAt": "2023-08-09"
+    },
+    {
+      "id": "rt0089",
+      "readerId": "r006",
+      "bookId": "b116",
+      "score": 4,
+      "ratedAt": "2023-08-22"
+    },
+    {
+      "id": "rt0090",
+      "readerId": "r007",
+      "bookId": "b091",
+      "score": 5,
+      "ratedAt": "2024-08-23"
+    },
+    {
+      "id": "rt0091",
+      "readerId": "r007",
+      "bookId": "b093",
+      "score": 5,
+      "ratedAt": "2024-07-29"
+    },
+    {
+      "id": "rt0092",
+      "readerId": "r007",
+      "bookId": "b052",
+      "score": 4,
+      "ratedAt": "2023-05-06"
+    },
+    {
+      "id": "rt0093",
+      "readerId": "r007",
+      "bookId": "b088",
+      "score": 4,
+      "ratedAt": "2024-11-12"
+    },
+    {
+      "id": "rt0094",
+      "readerId": "r007",
+      "bookId": "b077",
+      "score": 5,
+      "ratedAt": "2024-03-09"
+    },
+    {
+      "id": "rt0095",
+      "readerId": "r007",
+      "bookId": "b026",
+      "score": 5,
+      "ratedAt": "2023-02-22"
+    },
+    {
+      "id": "rt0096",
+      "readerId": "r007",
+      "bookId": "b108",
+      "score": 5,
+      "ratedAt": "2024-09-06"
+    },
+    {
+      "id": "rt0097",
+      "readerId": "r007",
+      "bookId": "b059",
+      "score": 4,
+      "ratedAt": "2023-04-17"
+    },
+    {
+      "id": "rt0098",
+      "readerId": "r007",
+      "bookId": "b061",
+      "score": 5,
+      "ratedAt": "2023-08-06"
+    },
+    {
+      "id": "rt0099",
+      "readerId": "r007",
+      "bookId": "b032",
+      "score": 4,
+      "ratedAt": "2024-05-08"
+    },
+    {
+      "id": "rt0100",
+      "readerId": "r007",
+      "bookId": "b098",
+      "score": 4,
+      "ratedAt": "2023-04-21"
+    },
+    {
+      "id": "rt0101",
+      "readerId": "r007",
+      "bookId": "b065",
+      "score": 4,
+      "ratedAt": "2024-07-23"
+    },
+    {
+      "id": "rt0102",
+      "readerId": "r007",
+      "bookId": "b014",
+      "score": 4,
+      "ratedAt": "2023-10-13"
+    },
+    {
+      "id": "rt0103",
+      "readerId": "r007",
+      "bookId": "b066",
+      "score": 5,
+      "ratedAt": "2024-03-15"
+    },
+    {
+      "id": "rt0104",
+      "readerId": "r007",
+      "bookId": "b063",
+      "score": 5,
+      "ratedAt": "2024-09-28"
+    },
+    {
+      "id": "rt0105",
+      "readerId": "r007",
+      "bookId": "b012",
+      "score": 5,
+      "ratedAt": "2024-10-20"
+    },
+    {
+      "id": "rt0106",
+      "readerId": "r007",
+      "bookId": "b099",
+      "score": 3,
+      "ratedAt": "2024-09-15"
+    },
+    {
+      "id": "rt0107",
+      "readerId": "r007",
+      "bookId": "b056",
+      "score": 5,
+      "ratedAt": "2023-10-01"
+    },
+    {
+      "id": "rt0108",
+      "readerId": "r007",
+      "bookId": "b119",
+      "score": 3,
+      "ratedAt": "2023-10-07"
+    },
+    {
+      "id": "rt0109",
+      "readerId": "r007",
+      "bookId": "b079",
+      "score": 5,
+      "ratedAt": "2023-11-13"
+    },
+    {
+      "id": "rt0110",
+      "readerId": "r007",
+      "bookId": "b089",
+      "score": 5,
+      "ratedAt": "2023-12-26"
+    },
+    {
+      "id": "rt0111",
+      "readerId": "r008",
+      "bookId": "b018",
+      "score": 3,
+      "ratedAt": "2023-11-29"
+    },
+    {
+      "id": "rt0112",
+      "readerId": "r008",
+      "bookId": "b023",
+      "score": 4,
+      "ratedAt": "2024-08-04"
+    },
+    {
+      "id": "rt0113",
+      "readerId": "r008",
+      "bookId": "b075",
+      "score": 5,
+      "ratedAt": "2023-02-23"
+    },
+    {
+      "id": "rt0114",
+      "readerId": "r008",
+      "bookId": "b004",
+      "score": 4,
+      "ratedAt": "2024-09-24"
+    },
+    {
+      "id": "rt0115",
+      "readerId": "r008",
+      "bookId": "b012",
+      "score": 3,
+      "ratedAt": "2023-03-25"
+    },
+    {
+      "id": "rt0116",
+      "readerId": "r008",
+      "bookId": "b022",
+      "score": 2,
+      "ratedAt": "2024-11-08"
+    },
+    {
+      "id": "rt0117",
+      "readerId": "r008",
+      "bookId": "b001",
+      "score": 4,
+      "ratedAt": "2024-09-13"
+    },
+    {
+      "id": "rt0118",
+      "readerId": "r008",
+      "bookId": "b046",
+      "score": 3,
+      "ratedAt": "2023-10-07"
+    },
+    {
+      "id": "rt0119",
+      "readerId": "r008",
+      "bookId": "b114",
+      "score": 4,
+      "ratedAt": "2024-06-08"
+    },
+    {
+      "id": "rt0120",
+      "readerId": "r008",
+      "bookId": "b037",
+      "score": 3,
+      "ratedAt": "2024-03-16"
+    },
+    {
+      "id": "rt0121",
+      "readerId": "r008",
+      "bookId": "b072",
+      "score": 2,
+      "ratedAt": "2024-11-25"
+    },
+    {
+      "id": "rt0122",
+      "readerId": "r008",
+      "bookId": "b115",
+      "score": 5,
+      "ratedAt": "2024-05-13"
+    },
+    {
+      "id": "rt0123",
+      "readerId": "r008",
+      "bookId": "b043",
+      "score": 5,
+      "ratedAt": "2023-11-12"
+    },
+    {
+      "id": "rt0124",
+      "readerId": "r008",
+      "bookId": "b035",
+      "score": 3,
+      "ratedAt": "2024-02-09"
+    },
+    {
+      "id": "rt0125",
+      "readerId": "r008",
+      "bookId": "b102",
+      "score": 5,
+      "ratedAt": "2023-02-26"
+    },
+    {
+      "id": "rt0126",
+      "readerId": "r008",
+      "bookId": "b103",
+      "score": 3,
+      "ratedAt": "2023-11-05"
+    },
+    {
+      "id": "rt0127",
+      "readerId": "r009",
+      "bookId": "b085",
+      "score": 3,
+      "ratedAt": "2023-02-13"
+    },
+    {
+      "id": "rt0128",
+      "readerId": "r009",
+      "bookId": "b087",
+      "score": 4,
+      "ratedAt": "2024-04-15"
+    },
+    {
+      "id": "rt0129",
+      "readerId": "r009",
+      "bookId": "b094",
+      "score": 5,
+      "ratedAt": "2023-11-17"
+    },
+    {
+      "id": "rt0130",
+      "readerId": "r009",
+      "bookId": "b027",
+      "score": 5,
+      "ratedAt": "2024-08-10"
+    },
+    {
+      "id": "rt0131",
+      "readerId": "r009",
+      "bookId": "b003",
+      "score": 4,
+      "ratedAt": "2024-10-17"
+    },
+    {
+      "id": "rt0132",
+      "readerId": "r009",
+      "bookId": "b033",
+      "score": 3,
+      "ratedAt": "2023-04-28"
+    },
+    {
+      "id": "rt0133",
+      "readerId": "r009",
+      "bookId": "b097",
+      "score": 4,
+      "ratedAt": "2023-11-29"
+    },
+    {
+      "id": "rt0134",
+      "readerId": "r009",
+      "bookId": "b058",
+      "score": 4,
+      "ratedAt": "2024-09-24"
+    },
+    {
+      "id": "rt0135",
+      "readerId": "r009",
+      "bookId": "b025",
+      "score": 4,
+      "ratedAt": "2024-01-06"
+    },
+    {
+      "id": "rt0136",
+      "readerId": "r009",
+      "bookId": "b064",
+      "score": 3,
+      "ratedAt": "2023-04-19"
+    },
+    {
+      "id": "rt0137",
+      "readerId": "r009",
+      "bookId": "b120",
+      "score": 2,
+      "ratedAt": "2024-08-26"
+    },
+    {
+      "id": "rt0138",
+      "readerId": "r009",
+      "bookId": "b095",
+      "score": 4,
+      "ratedAt": "2023-03-22"
+    },
+    {
+      "id": "rt0139",
+      "readerId": "r009",
+      "bookId": "b090",
+      "score": 3,
+      "ratedAt": "2023-11-14"
+    },
+    {
+      "id": "rt0140",
+      "readerId": "r009",
+      "bookId": "b096",
+      "score": 5,
+      "ratedAt": "2023-08-15"
+    },
+    {
+      "id": "rt0141",
+      "readerId": "r009",
+      "bookId": "b107",
+      "score": 3,
+      "ratedAt": "2023-06-22"
+    },
+    {
+      "id": "rt0142",
+      "readerId": "r009",
+      "bookId": "b079",
+      "score": 1,
+      "ratedAt": "2024-10-10"
+    },
+    {
+      "id": "rt0143",
+      "readerId": "r010",
+      "bookId": "b048",
+      "score": 4,
+      "ratedAt": "2024-04-25"
+    },
+    {
+      "id": "rt0144",
+      "readerId": "r010",
+      "bookId": "b111",
+      "score": 4,
+      "ratedAt": "2023-11-07"
+    },
+    {
+      "id": "rt0145",
+      "readerId": "r010",
+      "bookId": "b099",
+      "score": 4,
+      "ratedAt": "2024-08-28"
+    },
+    {
+      "id": "rt0146",
+      "readerId": "r010",
+      "bookId": "b017",
+      "score": 3,
+      "ratedAt": "2024-06-03"
+    },
+    {
+      "id": "rt0147",
+      "readerId": "r010",
+      "bookId": "b063",
+      "score": 3,
+      "ratedAt": "2024-04-17"
+    },
+    {
+      "id": "rt0148",
+      "readerId": "r010",
+      "bookId": "b010",
+      "score": 4,
+      "ratedAt": "2023-02-28"
+    },
+    {
+      "id": "rt0149",
+      "readerId": "r010",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2023-10-21"
+    },
+    {
+      "id": "rt0150",
+      "readerId": "r010",
+      "bookId": "b016",
+      "score": 3,
+      "ratedAt": "2023-04-03"
+    },
+    {
+      "id": "rt0151",
+      "readerId": "r010",
+      "bookId": "b014",
+      "score": 5,
+      "ratedAt": "2024-06-03"
+    },
+    {
+      "id": "rt0152",
+      "readerId": "r010",
+      "bookId": "b013",
+      "score": 4,
+      "ratedAt": "2024-08-17"
+    },
+    {
+      "id": "rt0153",
+      "readerId": "r010",
+      "bookId": "b076",
+      "score": 5,
+      "ratedAt": "2023-02-12"
+    },
+    {
+      "id": "rt0154",
+      "readerId": "r010",
+      "bookId": "b055",
+      "score": 3,
+      "ratedAt": "2024-08-08"
+    },
+    {
+      "id": "rt0155",
+      "readerId": "r010",
+      "bookId": "b078",
+      "score": 5,
+      "ratedAt": "2023-11-26"
+    },
+    {
+      "id": "rt0156",
+      "readerId": "r010",
+      "bookId": "b009",
+      "score": 5,
+      "ratedAt": "2024-05-28"
+    },
+    {
+      "id": "rt0157",
+      "readerId": "r010",
+      "bookId": "b047",
+      "score": 2,
+      "ratedAt": "2023-03-05"
+    },
+    {
+      "id": "rt0158",
+      "readerId": "r010",
+      "bookId": "b117",
+      "score": 4,
+      "ratedAt": "2023-12-18"
+    },
+    {
+      "id": "rt0159",
+      "readerId": "r010",
+      "bookId": "b058",
+      "score": 5,
+      "ratedAt": "2023-03-28"
+    },
+    {
+      "id": "rt0160",
+      "readerId": "r010",
+      "bookId": "b052",
+      "score": 5,
+      "ratedAt": "2023-06-26"
+    },
+    {
+      "id": "rt0161",
+      "readerId": "r010",
+      "bookId": "b075",
+      "score": 3,
+      "ratedAt": "2024-03-24"
+    },
+    {
+      "id": "rt0162",
+      "readerId": "r010",
+      "bookId": "b028",
+      "score": 5,
+      "ratedAt": "2024-06-20"
+    },
+    {
+      "id": "rt0163",
+      "readerId": "r010",
+      "bookId": "b068",
+      "score": 5,
+      "ratedAt": "2023-06-12"
+    },
+    {
+      "id": "rt0164",
+      "readerId": "r010",
+      "bookId": "b061",
+      "score": 3,
+      "ratedAt": "2023-10-17"
+    },
+    {
+      "id": "rt0165",
+      "readerId": "r011",
+      "bookId": "b014",
+      "score": 5,
+      "ratedAt": "2024-11-09"
+    },
+    {
+      "id": "rt0166",
+      "readerId": "r011",
+      "bookId": "b088",
+      "score": 4,
+      "ratedAt": "2024-09-01"
+    },
+    {
+      "id": "rt0167",
+      "readerId": "r011",
+      "bookId": "b119",
+      "score": 5,
+      "ratedAt": "2023-03-28"
+    },
+    {
+      "id": "rt0168",
+      "readerId": "r011",
+      "bookId": "b061",
+      "score": 4,
+      "ratedAt": "2024-01-21"
+    },
+    {
+      "id": "rt0169",
+      "readerId": "r011",
+      "bookId": "b098",
+      "score": 5,
+      "ratedAt": "2023-12-03"
+    },
+    {
+      "id": "rt0170",
+      "readerId": "r011",
+      "bookId": "b066",
+      "score": 5,
+      "ratedAt": "2024-11-17"
+    },
+    {
+      "id": "rt0171",
+      "readerId": "r011",
+      "bookId": "b108",
+      "score": 5,
+      "ratedAt": "2024-06-23"
+    },
+    {
+      "id": "rt0172",
+      "readerId": "r011",
+      "bookId": "b063",
+      "score": 3,
+      "ratedAt": "2024-11-17"
+    },
+    {
+      "id": "rt0173",
+      "readerId": "r011",
+      "bookId": "b059",
+      "score": 4,
+      "ratedAt": "2024-01-06"
+    },
+    {
+      "id": "rt0174",
+      "readerId": "r011",
+      "bookId": "b089",
+      "score": 3,
+      "ratedAt": "2023-11-13"
+    },
+    {
+      "id": "rt0175",
+      "readerId": "r011",
+      "bookId": "b093",
+      "score": 4,
+      "ratedAt": "2023-08-08"
+    },
+    {
+      "id": "rt0176",
+      "readerId": "r011",
+      "bookId": "b079",
+      "score": 4,
+      "ratedAt": "2024-05-12"
+    },
+    {
+      "id": "rt0177",
+      "readerId": "r011",
+      "bookId": "b065",
+      "score": 4,
+      "ratedAt": "2023-05-21"
+    },
+    {
+      "id": "rt0178",
+      "readerId": "r011",
+      "bookId": "b091",
+      "score": 4,
+      "ratedAt": "2023-10-30"
+    },
+    {
+      "id": "rt0179",
+      "readerId": "r011",
+      "bookId": "b052",
+      "score": 5,
+      "ratedAt": "2023-04-14"
+    },
+    {
+      "id": "rt0180",
+      "readerId": "r011",
+      "bookId": "b012",
+      "score": 5,
+      "ratedAt": "2024-07-06"
+    },
+    {
+      "id": "rt0181",
+      "readerId": "r011",
+      "bookId": "b032",
+      "score": 5,
+      "ratedAt": "2024-06-23"
+    },
+    {
+      "id": "rt0182",
+      "readerId": "r011",
+      "bookId": "b048",
+      "score": 1,
+      "ratedAt": "2023-12-11"
+    },
+    {
+      "id": "rt0183",
+      "readerId": "r011",
+      "bookId": "b043",
+      "score": 5,
+      "ratedAt": "2024-09-24"
+    },
+    {
+      "id": "rt0184",
+      "readerId": "r012",
+      "bookId": "b044",
+      "score": 4,
+      "ratedAt": "2023-07-18"
+    },
+    {
+      "id": "rt0185",
+      "readerId": "r012",
+      "bookId": "b046",
+      "score": 4,
+      "ratedAt": "2024-08-07"
+    },
+    {
+      "id": "rt0186",
+      "readerId": "r012",
+      "bookId": "b107",
+      "score": 5,
+      "ratedAt": "2024-04-17"
+    },
+    {
+      "id": "rt0187",
+      "readerId": "r012",
+      "bookId": "b106",
+      "score": 4,
+      "ratedAt": "2024-01-27"
+    },
+    {
+      "id": "rt0188",
+      "readerId": "r012",
+      "bookId": "b025",
+      "score": 3,
+      "ratedAt": "2024-03-04"
+    },
+    {
+      "id": "rt0189",
+      "readerId": "r012",
+      "bookId": "b076",
+      "score": 5,
+      "ratedAt": "2023-07-24"
+    },
+    {
+      "id": "rt0190",
+      "readerId": "r012",
+      "bookId": "b018",
+      "score": 5,
+      "ratedAt": "2023-05-22"
+    },
+    {
+      "id": "rt0191",
+      "readerId": "r012",
+      "bookId": "b072",
+      "score": 5,
+      "ratedAt": "2023-02-23"
+    },
+    {
+      "id": "rt0192",
+      "readerId": "r012",
+      "bookId": "b104",
+      "score": 4,
+      "ratedAt": "2024-01-16"
+    },
+    {
+      "id": "rt0193",
+      "readerId": "r012",
+      "bookId": "b023",
+      "score": 5,
+      "ratedAt": "2023-04-16"
+    },
+    {
+      "id": "rt0194",
+      "readerId": "r012",
+      "bookId": "b042",
+      "score": 4,
+      "ratedAt": "2024-06-12"
+    },
+    {
+      "id": "rt0195",
+      "readerId": "r012",
+      "bookId": "b110",
+      "score": 5,
+      "ratedAt": "2023-10-19"
+    },
+    {
+      "id": "rt0196",
+      "readerId": "r012",
+      "bookId": "b060",
+      "score": 1,
+      "ratedAt": "2023-06-14"
+    },
+    {
+      "id": "rt0197",
+      "readerId": "r012",
+      "bookId": "b017",
+      "score": 2,
+      "ratedAt": "2024-06-09"
+    },
+    {
+      "id": "rt0198",
+      "readerId": "r012",
+      "bookId": "b102",
+      "score": 4,
+      "ratedAt": "2024-03-23"
+    },
+    {
+      "id": "rt0199",
+      "readerId": "r012",
+      "bookId": "b019",
+      "score": 3,
+      "ratedAt": "2023-08-16"
+    },
+    {
+      "id": "rt0200",
+      "readerId": "r012",
+      "bookId": "b022",
+      "score": 5,
+      "ratedAt": "2023-12-24"
+    },
+    {
+      "id": "rt0201",
+      "readerId": "r012",
+      "bookId": "b030",
+      "score": 5,
+      "ratedAt": "2024-02-29"
+    },
+    {
+      "id": "rt0202",
+      "readerId": "r012",
+      "bookId": "b092",
+      "score": 3,
+      "ratedAt": "2024-05-29"
+    },
+    {
+      "id": "rt0203",
+      "readerId": "r012",
+      "bookId": "b120",
+      "score": 3,
+      "ratedAt": "2024-01-31"
+    },
+    {
+      "id": "rt0204",
+      "readerId": "r013",
+      "bookId": "b007",
+      "score": 3,
+      "ratedAt": "2023-08-09"
+    },
+    {
+      "id": "rt0205",
+      "readerId": "r013",
+      "bookId": "b028",
+      "score": 5,
+      "ratedAt": "2024-07-15"
+    },
+    {
+      "id": "rt0206",
+      "readerId": "r013",
+      "bookId": "b010",
+      "score": 5,
+      "ratedAt": "2024-09-15"
+    },
+    {
+      "id": "rt0207",
+      "readerId": "r013",
+      "bookId": "b111",
+      "score": 5,
+      "ratedAt": "2023-04-24"
+    },
+    {
+      "id": "rt0208",
+      "readerId": "r013",
+      "bookId": "b078",
+      "score": 5,
+      "ratedAt": "2023-09-01"
+    },
+    {
+      "id": "rt0209",
+      "readerId": "r013",
+      "bookId": "b077",
+      "score": 3,
+      "ratedAt": "2023-02-18"
+    },
+    {
+      "id": "rt0210",
+      "readerId": "r013",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-10-16"
+    },
+    {
+      "id": "rt0211",
+      "readerId": "r013",
+      "bookId": "b026",
+      "score": 4,
+      "ratedAt": "2024-04-13"
+    },
+    {
+      "id": "rt0212",
+      "readerId": "r013",
+      "bookId": "b008",
+      "score": 3,
+      "ratedAt": "2024-05-26"
+    },
+    {
+      "id": "rt0213",
+      "readerId": "r013",
+      "bookId": "b017",
+      "score": 5,
+      "ratedAt": "2023-01-17"
+    },
+    {
+      "id": "rt0214",
+      "readerId": "r013",
+      "bookId": "b063",
+      "score": 5,
+      "ratedAt": "2024-08-11"
+    },
+    {
+      "id": "rt0215",
+      "readerId": "r013",
+      "bookId": "b088",
+      "score": 4,
+      "ratedAt": "2023-05-28"
+    },
+    {
+      "id": "rt0216",
+      "readerId": "r013",
+      "bookId": "b075",
+      "score": 4,
+      "ratedAt": "2023-01-02"
+    },
+    {
+      "id": "rt0217",
+      "readerId": "r013",
+      "bookId": "b052",
+      "score": 5,
+      "ratedAt": "2023-09-04"
+    },
+    {
+      "id": "rt0218",
+      "readerId": "r013",
+      "bookId": "b076",
+      "score": 5,
+      "ratedAt": "2023-07-11"
+    },
+    {
+      "id": "rt0219",
+      "readerId": "r013",
+      "bookId": "b099",
+      "score": 4,
+      "ratedAt": "2023-03-29"
+    },
+    {
+      "id": "rt0220",
+      "readerId": "r013",
+      "bookId": "b120",
+      "score": 5,
+      "ratedAt": "2024-01-05"
+    },
+    {
+      "id": "rt0221",
+      "readerId": "r014",
+      "bookId": "b059",
+      "score": 3,
+      "ratedAt": "2024-10-20"
+    },
+    {
+      "id": "rt0222",
+      "readerId": "r014",
+      "bookId": "b116",
+      "score": 2,
+      "ratedAt": "2024-04-20"
+    },
+    {
+      "id": "rt0223",
+      "readerId": "r014",
+      "bookId": "b008",
+      "score": 5,
+      "ratedAt": "2024-05-05"
+    },
+    {
+      "id": "rt0224",
+      "readerId": "r014",
+      "bookId": "b120",
+      "score": 5,
+      "ratedAt": "2023-05-19"
+    },
+    {
+      "id": "rt0225",
+      "readerId": "r014",
+      "bookId": "b057",
+      "score": 1,
+      "ratedAt": "2024-04-13"
+    },
+    {
+      "id": "rt0226",
+      "readerId": "r014",
+      "bookId": "b061",
+      "score": 1,
+      "ratedAt": "2023-07-26"
+    },
+    {
+      "id": "rt0227",
+      "readerId": "r014",
+      "bookId": "b078",
+      "score": 3,
+      "ratedAt": "2023-07-24"
+    },
+    {
+      "id": "rt0228",
+      "readerId": "r014",
+      "bookId": "b048",
+      "score": 5,
+      "ratedAt": "2023-11-20"
+    },
+    {
+      "id": "rt0229",
+      "readerId": "r014",
+      "bookId": "b033",
+      "score": 5,
+      "ratedAt": "2024-06-11"
+    },
+    {
+      "id": "rt0230",
+      "readerId": "r014",
+      "bookId": "b016",
+      "score": 4,
+      "ratedAt": "2024-07-10"
+    },
+    {
+      "id": "rt0231",
+      "readerId": "r014",
+      "bookId": "b117",
+      "score": 4,
+      "ratedAt": "2023-02-07"
+    },
+    {
+      "id": "rt0232",
+      "readerId": "r014",
+      "bookId": "b007",
+      "score": 5,
+      "ratedAt": "2023-07-15"
+    },
+    {
+      "id": "rt0233",
+      "readerId": "r014",
+      "bookId": "b053",
+      "score": 2,
+      "ratedAt": "2023-02-18"
+    },
+    {
+      "id": "rt0234",
+      "readerId": "r014",
+      "bookId": "b009",
+      "score": 5,
+      "ratedAt": "2023-12-06"
+    },
+    {
+      "id": "rt0235",
+      "readerId": "r014",
+      "bookId": "b040",
+      "score": 2,
+      "ratedAt": "2024-01-12"
+    },
+    {
+      "id": "rt0236",
+      "readerId": "r014",
+      "bookId": "b015",
+      "score": 4,
+      "ratedAt": "2024-02-14"
+    },
+    {
+      "id": "rt0237",
+      "readerId": "r014",
+      "bookId": "b010",
+      "score": 5,
+      "ratedAt": "2024-01-31"
+    },
+    {
+      "id": "rt0238",
+      "readerId": "r014",
+      "bookId": "b075",
+      "score": 4,
+      "ratedAt": "2023-07-11"
+    },
+    {
+      "id": "rt0239",
+      "readerId": "r014",
+      "bookId": "b028",
+      "score": 4,
+      "ratedAt": "2024-05-24"
+    },
+    {
+      "id": "rt0240",
+      "readerId": "r014",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-06-15"
+    },
+    {
+      "id": "rt0241",
+      "readerId": "r014",
+      "bookId": "b058",
+      "score": 2,
+      "ratedAt": "2023-03-26"
+    },
+    {
+      "id": "rt0242",
+      "readerId": "r014",
+      "bookId": "b013",
+      "score": 5,
+      "ratedAt": "2023-03-22"
+    },
+    {
+      "id": "rt0243",
+      "readerId": "r015",
+      "bookId": "b017",
+      "score": 3,
+      "ratedAt": "2023-03-23"
+    },
+    {
+      "id": "rt0244",
+      "readerId": "r015",
+      "bookId": "b079",
+      "score": 4,
+      "ratedAt": "2023-10-30"
+    },
+    {
+      "id": "rt0245",
+      "readerId": "r016",
+      "bookId": "b048",
+      "score": 4,
+      "ratedAt": "2023-02-13"
+    },
+    {
+      "id": "rt0246",
+      "readerId": "r016",
+      "bookId": "b026",
+      "score": 4,
+      "ratedAt": "2023-12-28"
+    },
+    {
+      "id": "rt0247",
+      "readerId": "r016",
+      "bookId": "b090",
+      "score": 5,
+      "ratedAt": "2024-03-21"
+    },
+    {
+      "id": "rt0248",
+      "readerId": "r017",
+      "bookId": "b046",
+      "score": 4,
+      "ratedAt": "2024-10-22"
+    },
+    {
+      "id": "rt0249",
+      "readerId": "r017",
+      "bookId": "b104",
+      "score": 3,
+      "ratedAt": "2024-01-28"
+    },
+    {
+      "id": "rt0250",
+      "readerId": "r017",
+      "bookId": "b099",
+      "score": 5,
+      "ratedAt": "2023-02-03"
+    },
+    {
+      "id": "rt0251",
+      "readerId": "r017",
+      "bookId": "b042",
+      "score": 4,
+      "ratedAt": "2024-11-26"
+    },
+    {
+      "id": "rt0252",
+      "readerId": "r017",
+      "bookId": "b040",
+      "score": 3,
+      "ratedAt": "2024-01-15"
+    },
+    {
+      "id": "rt0253",
+      "readerId": "r017",
+      "bookId": "b068",
+      "score": 3,
+      "ratedAt": "2023-03-20"
+    },
+    {
+      "id": "rt0254",
+      "readerId": "r017",
+      "bookId": "b065",
+      "score": 5,
+      "ratedAt": "2024-06-26"
+    },
+    {
+      "id": "rt0255",
+      "readerId": "r017",
+      "bookId": "b013",
+      "score": 4,
+      "ratedAt": "2023-11-18"
+    },
+    {
+      "id": "rt0256",
+      "readerId": "r017",
+      "bookId": "b062",
+      "score": 5,
+      "ratedAt": "2023-09-13"
+    },
+    {
+      "id": "rt0257",
+      "readerId": "r017",
+      "bookId": "b089",
+      "score": 5,
+      "ratedAt": "2023-01-27"
+    },
+    {
+      "id": "rt0258",
+      "readerId": "r017",
+      "bookId": "b051",
+      "score": 4,
+      "ratedAt": "2024-05-26"
+    },
+    {
+      "id": "rt0259",
+      "readerId": "r017",
+      "bookId": "b029",
+      "score": 5,
+      "ratedAt": "2024-07-29"
+    },
+    {
+      "id": "rt0260",
+      "readerId": "r017",
+      "bookId": "b061",
+      "score": 3,
+      "ratedAt": "2023-09-24"
+    },
+    {
+      "id": "rt0261",
+      "readerId": "r017",
+      "bookId": "b113",
+      "score": 4,
+      "ratedAt": "2023-08-08"
+    },
+    {
+      "id": "rt0262",
+      "readerId": "r018",
+      "bookId": "b106",
+      "score": 5,
+      "ratedAt": "2023-05-23"
+    },
+    {
+      "id": "rt0263",
+      "readerId": "r018",
+      "bookId": "b042",
+      "score": 4,
+      "ratedAt": "2024-05-20"
+    },
+    {
+      "id": "rt0264",
+      "readerId": "r018",
+      "bookId": "b060",
+      "score": 3,
+      "ratedAt": "2024-07-21"
+    },
+    {
+      "id": "rt0265",
+      "readerId": "r018",
+      "bookId": "b030",
+      "score": 5,
+      "ratedAt": "2024-04-23"
+    },
+    {
+      "id": "rt0266",
+      "readerId": "r018",
+      "bookId": "b048",
+      "score": 5,
+      "ratedAt": "2024-07-18"
+    },
+    {
+      "id": "rt0267",
+      "readerId": "r018",
+      "bookId": "b104",
+      "score": 4,
+      "ratedAt": "2023-03-30"
+    },
+    {
+      "id": "rt0268",
+      "readerId": "r018",
+      "bookId": "b083",
+      "score": 1,
+      "ratedAt": "2024-02-12"
+    },
+    {
+      "id": "rt0269",
+      "readerId": "r018",
+      "bookId": "b090",
+      "score": 5,
+      "ratedAt": "2024-05-05"
+    },
+    {
+      "id": "rt0270",
+      "readerId": "r018",
+      "bookId": "b013",
+      "score": 3,
+      "ratedAt": "2024-02-24"
+    },
+    {
+      "id": "rt0271",
+      "readerId": "r018",
+      "bookId": "b029",
+      "score": 5,
+      "ratedAt": "2023-03-17"
+    },
+    {
+      "id": "rt0272",
+      "readerId": "r018",
+      "bookId": "b065",
+      "score": 2,
+      "ratedAt": "2023-11-21"
+    },
+    {
+      "id": "rt0273",
+      "readerId": "r018",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-04-05"
+    },
+    {
+      "id": "rt0274",
+      "readerId": "r018",
+      "bookId": "b067",
+      "score": 3,
+      "ratedAt": "2024-06-13"
+    },
+    {
+      "id": "rt0275",
+      "readerId": "r018",
+      "bookId": "b108",
+      "score": 3,
+      "ratedAt": "2024-07-18"
+    },
+    {
+      "id": "rt0276",
+      "readerId": "r018",
+      "bookId": "b058",
+      "score": 4,
+      "ratedAt": "2023-07-06"
+    },
+    {
+      "id": "rt0277",
+      "readerId": "r018",
+      "bookId": "b061",
+      "score": 4,
+      "ratedAt": "2023-05-13"
+    },
+    {
+      "id": "rt0278",
+      "readerId": "r018",
+      "bookId": "b062",
+      "score": 3,
+      "ratedAt": "2023-02-26"
+    },
+    {
+      "id": "rt0279",
+      "readerId": "r018",
+      "bookId": "b034",
+      "score": 5,
+      "ratedAt": "2024-06-14"
+    },
+    {
+      "id": "rt0280",
+      "readerId": "r018",
+      "bookId": "b080",
+      "score": 2,
+      "ratedAt": "2023-06-18"
+    },
+    {
+      "id": "rt0281",
+      "readerId": "r018",
+      "bookId": "b111",
+      "score": 2,
+      "ratedAt": "2023-08-19"
+    },
+    {
+      "id": "rt0282",
+      "readerId": "r018",
+      "bookId": "b017",
+      "score": 4,
+      "ratedAt": "2024-06-15"
+    },
+    {
+      "id": "rt0283",
+      "readerId": "r019",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-07-18"
+    },
+    {
+      "id": "rt0284",
+      "readerId": "r019",
+      "bookId": "b078",
+      "score": 4,
+      "ratedAt": "2024-10-02"
+    },
+    {
+      "id": "rt0285",
+      "readerId": "r020",
+      "bookId": "b029",
+      "score": 5,
+      "ratedAt": "2024-10-19"
+    },
+    {
+      "id": "rt0286",
+      "readerId": "r020",
+      "bookId": "b111",
+      "score": 5,
+      "ratedAt": "2024-05-09"
+    },
+    {
+      "id": "rt0287",
+      "readerId": "r020",
+      "bookId": "b030",
+      "score": 2,
+      "ratedAt": "2024-02-20"
+    },
+    {
+      "id": "rt0288",
+      "readerId": "r020",
+      "bookId": "b048",
+      "score": 4,
+      "ratedAt": "2023-03-16"
+    },
+    {
+      "id": "rt0289",
+      "readerId": "r020",
+      "bookId": "b017",
+      "score": 4,
+      "ratedAt": "2023-06-11"
+    },
+    {
+      "id": "rt0290",
+      "readerId": "r020",
+      "bookId": "b060",
+      "score": 3,
+      "ratedAt": "2024-05-10"
+    },
+    {
+      "id": "rt0291",
+      "readerId": "r020",
+      "bookId": "b046",
+      "score": 4,
+      "ratedAt": "2023-12-15"
+    },
+    {
+      "id": "rt0292",
+      "readerId": "r020",
+      "bookId": "b104",
+      "score": 4,
+      "ratedAt": "2023-11-17"
+    },
+    {
+      "id": "rt0293",
+      "readerId": "r020",
+      "bookId": "b065",
+      "score": 5,
+      "ratedAt": "2023-11-23"
+    },
+    {
+      "id": "rt0294",
+      "readerId": "r020",
+      "bookId": "b013",
+      "score": 5,
+      "ratedAt": "2023-12-20"
+    },
+    {
+      "id": "rt0295",
+      "readerId": "r020",
+      "bookId": "b011",
+      "score": 5,
+      "ratedAt": "2023-05-14"
+    },
+    {
+      "id": "rt0296",
+      "readerId": "r020",
+      "bookId": "b110",
+      "score": 4,
+      "ratedAt": "2024-06-11"
+    },
+    {
+      "id": "rt0297",
+      "readerId": "r020",
+      "bookId": "b107",
+      "score": 3,
+      "ratedAt": "2023-11-23"
+    },
+    {
+      "id": "rt0298",
+      "readerId": "r020",
+      "bookId": "b042",
+      "score": 2,
+      "ratedAt": "2023-05-06"
+    },
+    {
+      "id": "rt0299",
+      "readerId": "r020",
+      "bookId": "b080",
+      "score": 4,
+      "ratedAt": "2023-09-11"
+    },
+    {
+      "id": "rt0300",
+      "readerId": "r020",
+      "bookId": "b062",
+      "score": 4,
+      "ratedAt": "2023-02-21"
+    },
+    {
+      "id": "rt0301",
+      "readerId": "r020",
+      "bookId": "b106",
+      "score": 2,
+      "ratedAt": "2024-01-29"
+    },
+    {
+      "id": "rt0302",
+      "readerId": "r020",
+      "bookId": "b034",
+      "score": 5,
+      "ratedAt": "2024-03-04"
+    },
+    {
+      "id": "rt0303",
+      "readerId": "r020",
+      "bookId": "b050",
+      "score": 4,
+      "ratedAt": "2023-06-13"
+    },
+    {
+      "id": "rt0304",
+      "readerId": "r020",
+      "bookId": "b090",
+      "score": 5,
+      "ratedAt": "2024-08-14"
+    },
+    {
+      "id": "rt0305",
+      "readerId": "r020",
+      "bookId": "b067",
+      "score": 5,
+      "ratedAt": "2023-07-14"
+    },
+    {
+      "id": "rt0306",
+      "readerId": "r020",
+      "bookId": "b025",
+      "score": 4,
+      "ratedAt": "2024-05-25"
+    },
+    {
+      "id": "rt0307",
+      "readerId": "r021",
+      "bookId": "b061",
+      "score": 4,
+      "ratedAt": "2023-09-28"
+    },
+    {
+      "id": "rt0308",
+      "readerId": "r021",
+      "bookId": "b022",
+      "score": 4,
+      "ratedAt": "2024-02-17"
+    },
+    {
+      "id": "rt0309",
+      "readerId": "r021",
+      "bookId": "b015",
+      "score": 4,
+      "ratedAt": "2024-02-15"
+    },
+    {
+      "id": "rt0310",
+      "readerId": "r021",
+      "bookId": "b047",
+      "score": 3,
+      "ratedAt": "2024-07-29"
+    },
+    {
+      "id": "rt0311",
+      "readerId": "r021",
+      "bookId": "b010",
+      "score": 2,
+      "ratedAt": "2024-07-20"
+    },
+    {
+      "id": "rt0312",
+      "readerId": "r021",
+      "bookId": "b026",
+      "score": 2,
+      "ratedAt": "2024-01-31"
+    },
+    {
+      "id": "rt0313",
+      "readerId": "r021",
+      "bookId": "b016",
+      "score": 3,
+      "ratedAt": "2024-07-17"
+    },
+    {
+      "id": "rt0314",
+      "readerId": "r021",
+      "bookId": "b058",
+      "score": 4,
+      "ratedAt": "2024-09-30"
+    },
+    {
+      "id": "rt0315",
+      "readerId": "r021",
+      "bookId": "b053",
+      "score": 5,
+      "ratedAt": "2023-05-02"
+    },
+    {
+      "id": "rt0316",
+      "readerId": "r021",
+      "bookId": "b119",
+      "score": 2,
+      "ratedAt": "2023-04-10"
+    },
+    {
+      "id": "rt0317",
+      "readerId": "r021",
+      "bookId": "b055",
+      "score": 4,
+      "ratedAt": "2023-12-14"
+    },
+    {
+      "id": "rt0318",
+      "readerId": "r021",
+      "bookId": "b114",
+      "score": 3,
+      "ratedAt": "2024-01-10"
+    },
+    {
+      "id": "rt0319",
+      "readerId": "r021",
+      "bookId": "b116",
+      "score": 5,
+      "ratedAt": "2023-07-23"
+    },
+    {
+      "id": "rt0320",
+      "readerId": "r021",
+      "bookId": "b054",
+      "score": 5,
+      "ratedAt": "2024-02-16"
+    },
+    {
+      "id": "rt0321",
+      "readerId": "r021",
+      "bookId": "b117",
+      "score": 3,
+      "ratedAt": "2023-02-16"
+    },
+    {
+      "id": "rt0322",
+      "readerId": "r021",
+      "bookId": "b059",
+      "score": 3,
+      "ratedAt": "2023-12-08"
+    },
+    {
+      "id": "rt0323",
+      "readerId": "r021",
+      "bookId": "b093",
+      "score": 5,
+      "ratedAt": "2024-06-15"
+    },
+    {
+      "id": "rt0324",
+      "readerId": "r021",
+      "bookId": "b014",
+      "score": 3,
+      "ratedAt": "2024-09-12"
+    },
+    {
+      "id": "rt0325",
+      "readerId": "r021",
+      "bookId": "b099",
+      "score": 5,
+      "ratedAt": "2023-05-24"
+    },
+    {
+      "id": "rt0326",
+      "readerId": "r021",
+      "bookId": "b066",
+      "score": 3,
+      "ratedAt": "2024-09-19"
+    },
+    {
+      "id": "rt0327",
+      "readerId": "r021",
+      "bookId": "b040",
+      "score": 4,
+      "ratedAt": "2024-02-07"
+    },
+    {
+      "id": "rt0328",
+      "readerId": "r022",
+      "bookId": "b038",
+      "score": 5,
+      "ratedAt": "2024-08-15"
+    },
+    {
+      "id": "rt0329",
+      "readerId": "r022",
+      "bookId": "b073",
+      "score": 3,
+      "ratedAt": "2023-02-22"
+    },
+    {
+      "id": "rt0330",
+      "readerId": "r022",
+      "bookId": "b071",
+      "score": 3,
+      "ratedAt": "2023-06-24"
+    },
+    {
+      "id": "rt0331",
+      "readerId": "r022",
+      "bookId": "b039",
+      "score": 3,
+      "ratedAt": "2024-09-26"
+    },
+    {
+      "id": "rt0332",
+      "readerId": "r022",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-01-25"
+    },
+    {
+      "id": "rt0333",
+      "readerId": "r022",
+      "bookId": "b060",
+      "score": 4,
+      "ratedAt": "2024-11-28"
+    },
+    {
+      "id": "rt0334",
+      "readerId": "r022",
+      "bookId": "b107",
+      "score": 4,
+      "ratedAt": "2024-08-09"
+    },
+    {
+      "id": "rt0335",
+      "readerId": "r022",
+      "bookId": "b017",
+      "score": 5,
+      "ratedAt": "2023-04-23"
+    },
+    {
+      "id": "rt0336",
+      "readerId": "r022",
+      "bookId": "b104",
+      "score": 4,
+      "ratedAt": "2024-03-27"
+    },
+    {
+      "id": "rt0337",
+      "readerId": "r022",
+      "bookId": "b055",
+      "score": 3,
+      "ratedAt": "2023-06-05"
+    },
+    {
+      "id": "rt0338",
+      "readerId": "r022",
+      "bookId": "b025",
+      "score": 4,
+      "ratedAt": "2023-07-28"
+    },
+    {
+      "id": "rt0339",
+      "readerId": "r022",
+      "bookId": "b042",
+      "score": 4,
+      "ratedAt": "2024-09-18"
+    },
+    {
+      "id": "rt0340",
+      "readerId": "r022",
+      "bookId": "b052",
+      "score": 5,
+      "ratedAt": "2023-03-05"
+    },
+    {
+      "id": "rt0341",
+      "readerId": "r022",
+      "bookId": "b030",
+      "score": 5,
+      "ratedAt": "2024-06-15"
+    },
+    {
+      "id": "rt0342",
+      "readerId": "r022",
+      "bookId": "b101",
+      "score": 2,
+      "ratedAt": "2023-11-29"
+    },
+    {
+      "id": "rt0343",
+      "readerId": "r022",
+      "bookId": "b110",
+      "score": 5,
+      "ratedAt": "2024-05-04"
+    },
+    {
+      "id": "rt0344",
+      "readerId": "r022",
+      "bookId": "b062",
+      "score": 3,
+      "ratedAt": "2023-11-18"
+    },
+    {
+      "id": "rt0345",
+      "readerId": "r022",
+      "bookId": "b106",
+      "score": 5,
+      "ratedAt": "2024-04-15"
+    },
+    {
+      "id": "rt0346",
+      "readerId": "r023",
+      "bookId": "b047",
+      "score": 3,
+      "ratedAt": "2024-07-27"
+    },
+    {
+      "id": "rt0347",
+      "readerId": "r023",
+      "bookId": "b062",
+      "score": 5,
+      "ratedAt": "2023-10-08"
+    },
+    {
+      "id": "rt0348",
+      "readerId": "r023",
+      "bookId": "b058",
+      "score": 2,
+      "ratedAt": "2024-08-10"
+    },
+    {
+      "id": "rt0349",
+      "readerId": "r023",
+      "bookId": "b061",
+      "score": 4,
+      "ratedAt": "2024-01-24"
+    },
+    {
+      "id": "rt0350",
+      "readerId": "r023",
+      "bookId": "b055",
+      "score": 5,
+      "ratedAt": "2024-02-09"
+    },
+    {
+      "id": "rt0351",
+      "readerId": "r023",
+      "bookId": "b043",
+      "score": 5,
+      "ratedAt": "2023-05-30"
+    },
+    {
+      "id": "rt0352",
+      "readerId": "r023",
+      "bookId": "b054",
+      "score": 2,
+      "ratedAt": "2023-10-22"
+    },
+    {
+      "id": "rt0353",
+      "readerId": "r023",
+      "bookId": "b113",
+      "score": 5,
+      "ratedAt": "2023-03-22"
+    },
+    {
+      "id": "rt0354",
+      "readerId": "r023",
+      "bookId": "b022",
+      "score": 4,
+      "ratedAt": "2024-03-28"
+    },
+    {
+      "id": "rt0355",
+      "readerId": "r023",
+      "bookId": "b030",
+      "score": 5,
+      "ratedAt": "2024-05-05"
+    },
+    {
+      "id": "rt0356",
+      "readerId": "r023",
+      "bookId": "b059",
+      "score": 2,
+      "ratedAt": "2024-07-05"
+    },
+    {
+      "id": "rt0357",
+      "readerId": "r023",
+      "bookId": "b053",
+      "score": 2,
+      "ratedAt": "2024-07-29"
+    },
+    {
+      "id": "rt0358",
+      "readerId": "r023",
+      "bookId": "b019",
+      "score": 5,
+      "ratedAt": "2023-05-21"
+    },
+    {
+      "id": "rt0359",
+      "readerId": "r023",
+      "bookId": "b018",
+      "score": 3,
+      "ratedAt": "2024-08-23"
+    },
+    {
+      "id": "rt0360",
+      "readerId": "r023",
+      "bookId": "b094",
+      "score": 4,
+      "ratedAt": "2023-02-21"
+    },
+    {
+      "id": "rt0361",
+      "readerId": "r023",
+      "bookId": "b099",
+      "score": 4,
+      "ratedAt": "2024-06-27"
+    },
+    {
+      "id": "rt0362",
+      "readerId": "r023",
+      "bookId": "b078",
+      "score": 4,
+      "ratedAt": "2023-08-27"
+    },
+    {
+      "id": "rt0363",
+      "readerId": "r023",
+      "bookId": "b040",
+      "score": 1,
+      "ratedAt": "2024-02-28"
+    },
+    {
+      "id": "rt0364",
+      "readerId": "r023",
+      "bookId": "b021",
+      "score": 4,
+      "ratedAt": "2024-04-28"
+    },
+    {
+      "id": "rt0365",
+      "readerId": "r024",
+      "bookId": "b007",
+      "score": 5,
+      "ratedAt": "2024-07-01"
+    },
+    {
+      "id": "rt0366",
+      "readerId": "r024",
+      "bookId": "b049",
+      "score": 4,
+      "ratedAt": "2023-02-08"
+    },
+    {
+      "id": "rt0367",
+      "readerId": "r024",
+      "bookId": "b028",
+      "score": 5,
+      "ratedAt": "2023-06-29"
+    },
+    {
+      "id": "rt0368",
+      "readerId": "r024",
+      "bookId": "b031",
+      "score": 3,
+      "ratedAt": "2023-06-30"
+    },
+    {
+      "id": "rt0369",
+      "readerId": "r024",
+      "bookId": "b070",
+      "score": 5,
+      "ratedAt": "2023-02-07"
+    },
+    {
+      "id": "rt0370",
+      "readerId": "r024",
+      "bookId": "b040",
+      "score": 5,
+      "ratedAt": "2024-02-11"
+    },
+    {
+      "id": "rt0371",
+      "readerId": "r024",
+      "bookId": "b105",
+      "score": 4,
+      "ratedAt": "2023-07-10"
+    },
+    {
+      "id": "rt0372",
+      "readerId": "r024",
+      "bookId": "b107",
+      "score": 5,
+      "ratedAt": "2023-10-24"
+    },
+    {
+      "id": "rt0373",
+      "readerId": "r024",
+      "bookId": "b048",
+      "score": 5,
+      "ratedAt": "2023-01-10"
+    },
+    {
+      "id": "rt0374",
+      "readerId": "r024",
+      "bookId": "b075",
+      "score": 4,
+      "ratedAt": "2024-09-09"
+    },
+    {
+      "id": "rt0375",
+      "readerId": "r024",
+      "bookId": "b078",
+      "score": 3,
+      "ratedAt": "2023-12-10"
+    },
+    {
+      "id": "rt0376",
+      "readerId": "r024",
+      "bookId": "b091",
+      "score": 2,
+      "ratedAt": "2024-10-18"
+    },
+    {
+      "id": "rt0377",
+      "readerId": "r024",
+      "bookId": "b100",
+      "score": 3,
+      "ratedAt": "2024-05-20"
+    },
+    {
+      "id": "rt0378",
+      "readerId": "r024",
+      "bookId": "b010",
+      "score": 5,
+      "ratedAt": "2023-05-18"
+    },
+    {
+      "id": "rt0379",
+      "readerId": "r024",
+      "bookId": "b013",
+      "score": 5,
+      "ratedAt": "2024-04-24"
+    },
+    {
+      "id": "rt0380",
+      "readerId": "r024",
+      "bookId": "b084",
+      "score": 2,
+      "ratedAt": "2023-04-26"
+    },
+    {
+      "id": "rt0381",
+      "readerId": "r025",
+      "bookId": "b072",
+      "score": 5,
+      "ratedAt": "2024-05-03"
+    },
+    {
+      "id": "rt0382",
+      "readerId": "r025",
+      "bookId": "b018",
+      "score": 3,
+      "ratedAt": "2023-09-12"
+    },
+    {
+      "id": "rt0383",
+      "readerId": "r025",
+      "bookId": "b076",
+      "score": 1,
+      "ratedAt": "2024-01-28"
+    },
+    {
+      "id": "rt0384",
+      "readerId": "r025",
+      "bookId": "b077",
+      "score": 4,
+      "ratedAt": "2023-10-01"
+    },
+    {
+      "id": "rt0385",
+      "readerId": "r025",
+      "bookId": "b026",
+      "score": 5,
+      "ratedAt": "2023-11-06"
+    },
+    {
+      "id": "rt0386",
+      "readerId": "r025",
+      "bookId": "b019",
+      "score": 3,
+      "ratedAt": "2024-08-09"
+    },
+    {
+      "id": "rt0387",
+      "readerId": "r025",
+      "bookId": "b092",
+      "score": 1,
+      "ratedAt": "2024-10-31"
+    },
+    {
+      "id": "rt0388",
+      "readerId": "r025",
+      "bookId": "b023",
+      "score": 3,
+      "ratedAt": "2023-08-30"
+    },
+    {
+      "id": "rt0389",
+      "readerId": "r025",
+      "bookId": "b044",
+      "score": 1,
+      "ratedAt": "2023-05-02"
+    },
+    {
+      "id": "rt0390",
+      "readerId": "r025",
+      "bookId": "b056",
+      "score": 4,
+      "ratedAt": "2023-06-13"
+    },
+    {
+      "id": "rt0391",
+      "readerId": "r025",
+      "bookId": "b022",
+      "score": 3,
+      "ratedAt": "2024-05-29"
+    },
+    {
+      "id": "rt0392",
+      "readerId": "r025",
+      "bookId": "b102",
+      "score": 5,
+      "ratedAt": "2023-11-15"
+    },
+    {
+      "id": "rt0393",
+      "readerId": "r025",
+      "bookId": "b099",
+      "score": 5,
+      "ratedAt": "2024-10-16"
+    },
+    {
+      "id": "rt0394",
+      "readerId": "r025",
+      "bookId": "b046",
+      "score": 5,
+      "ratedAt": "2023-10-30"
+    },
+    {
+      "id": "rt0395",
+      "readerId": "r025",
+      "bookId": "b075",
+      "score": 3,
+      "ratedAt": "2023-08-15"
+    },
+    {
+      "id": "rt0396",
+      "readerId": "r025",
+      "bookId": "b049",
+      "score": 2,
+      "ratedAt": "2023-05-17"
+    },
+    {
+      "id": "rt0397",
+      "readerId": "r025",
+      "bookId": "b012",
+      "score": 3,
+      "ratedAt": "2024-04-10"
+    },
+    {
+      "id": "rt0398",
+      "readerId": "r025",
+      "bookId": "b060",
+      "score": 4,
+      "ratedAt": "2024-09-12"
+    },
+    {
+      "id": "rt0399",
+      "readerId": "r025",
+      "bookId": "b098",
+      "score": 3,
+      "ratedAt": "2024-07-16"
+    },
+    {
+      "id": "rt0400",
+      "readerId": "r025",
+      "bookId": "b013",
+      "score": 5,
+      "ratedAt": "2024-07-04"
+    },
+    {
+      "id": "rt0401",
+      "readerId": "r025",
+      "bookId": "b029",
+      "score": 5,
+      "ratedAt": "2023-08-12"
+    },
+    {
+      "id": "rt0402",
+      "readerId": "r026",
+      "bookId": "b058",
+      "score": 2,
+      "ratedAt": "2023-07-30"
+    },
+    {
+      "id": "rt0403",
+      "readerId": "r026",
+      "bookId": "b027",
+      "score": 4,
+      "ratedAt": "2024-05-15"
+    },
+    {
+      "id": "rt0404",
+      "readerId": "r026",
+      "bookId": "b096",
+      "score": 1,
+      "ratedAt": "2024-06-06"
+    },
+    {
+      "id": "rt0405",
+      "readerId": "r026",
+      "bookId": "b003",
+      "score": 3,
+      "ratedAt": "2023-02-26"
+    },
+    {
+      "id": "rt0406",
+      "readerId": "r026",
+      "bookId": "b038",
+      "score": 4,
+      "ratedAt": "2024-06-09"
+    },
+    {
+      "id": "rt0407",
+      "readerId": "r026",
+      "bookId": "b074",
+      "score": 4,
+      "ratedAt": "2024-07-31"
+    },
+    {
+      "id": "rt0408",
+      "readerId": "r026",
+      "bookId": "b033",
+      "score": 3,
+      "ratedAt": "2024-04-18"
+    },
+    {
+      "id": "rt0409",
+      "readerId": "r026",
+      "bookId": "b090",
+      "score": 5,
+      "ratedAt": "2023-11-12"
+    },
+    {
+      "id": "rt0410",
+      "readerId": "r026",
+      "bookId": "b107",
+      "score": 5,
+      "ratedAt": "2024-02-10"
+    },
+    {
+      "id": "rt0411",
+      "readerId": "r026",
+      "bookId": "b097",
+      "score": 4,
+      "ratedAt": "2023-01-04"
+    },
+    {
+      "id": "rt0412",
+      "readerId": "r026",
+      "bookId": "b085",
+      "score": 4,
+      "ratedAt": "2024-08-15"
+    },
+    {
+      "id": "rt0413",
+      "readerId": "r026",
+      "bookId": "b005",
+      "score": 1,
+      "ratedAt": "2024-03-09"
+    },
+    {
+      "id": "rt0414",
+      "readerId": "r026",
+      "bookId": "b081",
+      "score": 4,
+      "ratedAt": "2023-03-07"
+    },
+    {
+      "id": "rt0415",
+      "readerId": "r026",
+      "bookId": "b025",
+      "score": 3,
+      "ratedAt": "2023-03-03"
+    },
+    {
+      "id": "rt0416",
+      "readerId": "r026",
+      "bookId": "b093",
+      "score": 5,
+      "ratedAt": "2023-03-12"
+    },
+    {
+      "id": "rt0417",
+      "readerId": "r027",
+      "bookId": "b056",
+      "score": 5,
+      "ratedAt": "2024-07-06"
+    },
+    {
+      "id": "rt0418",
+      "readerId": "r027",
+      "bookId": "b094",
+      "score": 4,
+      "ratedAt": "2023-12-23"
+    },
+    {
+      "id": "rt0419",
+      "readerId": "r027",
+      "bookId": "b021",
+      "score": 3,
+      "ratedAt": "2024-07-04"
+    },
+    {
+      "id": "rt0420",
+      "readerId": "r027",
+      "bookId": "b019",
+      "score": 4,
+      "ratedAt": "2023-05-11"
+    },
+    {
+      "id": "rt0421",
+      "readerId": "r027",
+      "bookId": "b036",
+      "score": 4,
+      "ratedAt": "2023-08-17"
+    },
+    {
+      "id": "rt0422",
+      "readerId": "r027",
+      "bookId": "b066",
+      "score": 5,
+      "ratedAt": "2023-01-24"
+    },
+    {
+      "id": "rt0423",
+      "readerId": "r027",
+      "bookId": "b117",
+      "score": 5,
+      "ratedAt": "2024-04-19"
+    },
+    {
+      "id": "rt0424",
+      "readerId": "r027",
+      "bookId": "b062",
+      "score": 5,
+      "ratedAt": "2024-07-11"
+    },
+    {
+      "id": "rt0425",
+      "readerId": "r027",
+      "bookId": "b078",
+      "score": 4,
+      "ratedAt": "2024-01-24"
+    },
+    {
+      "id": "rt0426",
+      "readerId": "r027",
+      "bookId": "b110",
+      "score": 5,
+      "ratedAt": "2023-09-11"
+    },
+    {
+      "id": "rt0427",
+      "readerId": "r027",
+      "bookId": "b014",
+      "score": 3,
+      "ratedAt": "2023-06-08"
+    },
+    {
+      "id": "rt0428",
+      "readerId": "r027",
+      "bookId": "b022",
+      "score": 4,
+      "ratedAt": "2023-04-26"
+    },
+    {
+      "id": "rt0429",
+      "readerId": "r027",
+      "bookId": "b008",
+      "score": 3,
+      "ratedAt": "2024-11-07"
+    },
+    {
+      "id": "rt0430",
+      "readerId": "r027",
+      "bookId": "b057",
+      "score": 4,
+      "ratedAt": "2023-01-17"
+    },
+    {
+      "id": "rt0431",
+      "readerId": "r028",
+      "bookId": "b005",
+      "score": 5,
+      "ratedAt": "2023-10-24"
+    },
+    {
+      "id": "rt0432",
+      "readerId": "r028",
+      "bookId": "b087",
+      "score": 4,
+      "ratedAt": "2024-08-12"
+    },
+    {
+      "id": "rt0433",
+      "readerId": "r028",
+      "bookId": "b003",
+      "score": 4,
+      "ratedAt": "2024-09-04"
+    },
+    {
+      "id": "rt0434",
+      "readerId": "r028",
+      "bookId": "b074",
+      "score": 5,
+      "ratedAt": "2023-11-25"
+    },
+    {
+      "id": "rt0435",
+      "readerId": "r028",
+      "bookId": "b096",
+      "score": 4,
+      "ratedAt": "2023-05-27"
+    },
+    {
+      "id": "rt0436",
+      "readerId": "r028",
+      "bookId": "b095",
+      "score": 5,
+      "ratedAt": "2024-06-17"
+    },
+    {
+      "id": "rt0437",
+      "readerId": "r028",
+      "bookId": "b027",
+      "score": 4,
+      "ratedAt": "2023-11-04"
+    },
+    {
+      "id": "rt0438",
+      "readerId": "r028",
+      "bookId": "b058",
+      "score": 4,
+      "ratedAt": "2024-07-24"
+    },
+    {
+      "id": "rt0439",
+      "readerId": "r028",
+      "bookId": "b085",
+      "score": 5,
+      "ratedAt": "2023-06-29"
+    },
+    {
+      "id": "rt0440",
+      "readerId": "r028",
+      "bookId": "b094",
+      "score": 5,
+      "ratedAt": "2024-03-13"
+    },
+    {
+      "id": "rt0441",
+      "readerId": "r028",
+      "bookId": "b042",
+      "score": 5,
+      "ratedAt": "2023-02-18"
+    },
+    {
+      "id": "rt0442",
+      "readerId": "r028",
+      "bookId": "b064",
+      "score": 5,
+      "ratedAt": "2024-10-20"
+    },
+    {
+      "id": "rt0443",
+      "readerId": "r028",
+      "bookId": "b025",
+      "score": 5,
+      "ratedAt": "2024-06-21"
+    },
+    {
+      "id": "rt0444",
+      "readerId": "r028",
+      "bookId": "b097",
+      "score": 4,
+      "ratedAt": "2024-03-02"
+    },
+    {
+      "id": "rt0445",
+      "readerId": "r028",
+      "bookId": "b020",
+      "score": 3,
+      "ratedAt": "2023-11-04"
+    },
+    {
+      "id": "rt0446",
+      "readerId": "r029",
+      "bookId": "b108",
+      "score": 5,
+      "ratedAt": "2023-07-15"
+    },
+    {
+      "id": "rt0447",
+      "readerId": "r029",
+      "bookId": "b065",
+      "score": 3,
+      "ratedAt": "2024-01-22"
+    },
+    {
+      "id": "rt0448",
+      "readerId": "r029",
+      "bookId": "b092",
+      "score": 4,
+      "ratedAt": "2024-09-09"
+    },
+    {
+      "id": "rt0449",
+      "readerId": "r029",
+      "bookId": "b079",
+      "score": 3,
+      "ratedAt": "2023-03-16"
+    },
+    {
+      "id": "rt0450",
+      "readerId": "r029",
+      "bookId": "b046",
+      "score": 2,
+      "ratedAt": "2024-08-24"
+    },
+    {
+      "id": "rt0451",
+      "readerId": "r029",
+      "bookId": "b059",
+      "score": 5,
+      "ratedAt": "2024-07-26"
+    },
+    {
+      "id": "rt0452",
+      "readerId": "r029",
+      "bookId": "b098",
+      "score": 4,
+      "ratedAt": "2023-08-02"
+    },
+    {
+      "id": "rt0453",
+      "readerId": "r029",
+      "bookId": "b014",
+      "score": 5,
+      "ratedAt": "2023-12-07"
+    },
+    {
+      "id": "rt0454",
+      "readerId": "r029",
+      "bookId": "b018",
+      "score": 3,
+      "ratedAt": "2023-01-16"
+    },
+    {
+      "id": "rt0455",
+      "readerId": "r029",
+      "bookId": "b093",
+      "score": 4,
+      "ratedAt": "2023-07-14"
+    },
+    {
+      "id": "rt0456",
+      "readerId": "r029",
+      "bookId": "b019",
+      "score": 5,
+      "ratedAt": "2023-05-01"
+    },
+    {
+      "id": "rt0457",
+      "readerId": "r029",
+      "bookId": "b044",
+      "score": 4,
+      "ratedAt": "2024-05-05"
+    },
+    {
+      "id": "rt0458",
+      "readerId": "r029",
+      "bookId": "b063",
+      "score": 5,
+      "ratedAt": "2024-09-10"
+    },
+    {
+      "id": "rt0459",
+      "readerId": "r029",
+      "bookId": "b052",
+      "score": 5,
+      "ratedAt": "2024-02-11"
+    },
+    {
+      "id": "rt0460",
+      "readerId": "r029",
+      "bookId": "b102",
+      "score": 5,
+      "ratedAt": "2024-07-19"
+    },
+    {
+      "id": "rt0461",
+      "readerId": "r029",
+      "bookId": "b119",
+      "score": 4,
+      "ratedAt": "2023-10-17"
+    },
+    {
+      "id": "rt0462",
+      "readerId": "r029",
+      "bookId": "b061",
+      "score": 4,
+      "ratedAt": "2024-06-30"
+    },
+    {
+      "id": "rt0463",
+      "readerId": "r029",
+      "bookId": "b022",
+      "score": 4,
+      "ratedAt": "2023-11-12"
+    },
+    {
+      "id": "rt0464",
+      "readerId": "r029",
+      "bookId": "b076",
+      "score": 2,
+      "ratedAt": "2024-06-09"
+    },
+    {
+      "id": "rt0465",
+      "readerId": "r029",
+      "bookId": "b088",
+      "score": 5,
+      "ratedAt": "2024-04-22"
+    },
+    {
+      "id": "rt0466",
+      "readerId": "r029",
+      "bookId": "b012",
+      "score": 3,
+      "ratedAt": "2024-04-25"
+    },
+    {
+      "id": "rt0467",
+      "readerId": "r029",
+      "bookId": "b091",
+      "score": 5,
+      "ratedAt": "2023-11-24"
+    },
+    {
+      "id": "rt0468",
+      "readerId": "r030",
+      "bookId": "b057",
+      "score": 5,
+      "ratedAt": "2024-05-26"
+    },
+    {
+      "id": "rt0469",
+      "readerId": "r030",
+      "bookId": "b094",
+      "score": 5,
+      "ratedAt": "2023-12-12"
+    },
+    {
+      "id": "rt0470",
+      "readerId": "r030",
+      "bookId": "b008",
+      "score": 4,
+      "ratedAt": "2024-05-15"
+    },
+    {
+      "id": "rt0471",
+      "readerId": "r030",
+      "bookId": "b025",
+      "score": 5,
+      "ratedAt": "2024-10-19"
+    },
+    {
+      "id": "rt0472",
+      "readerId": "r030",
+      "bookId": "b030",
+      "score": 5,
+      "ratedAt": "2024-04-16"
+    },
+    {
+      "id": "rt0473",
+      "readerId": "r030",
+      "bookId": "b074",
+      "score": 2,
+      "ratedAt": "2023-12-27"
+    },
+    {
+      "id": "rt0474",
+      "readerId": "r030",
+      "bookId": "b019",
+      "score": 4,
+      "ratedAt": "2024-07-13"
+    },
+    {
+      "id": "rt0475",
+      "readerId": "r030",
+      "bookId": "b002",
+      "score": 4,
+      "ratedAt": "2024-07-09"
+    },
+    {
+      "id": "rt0476",
+      "readerId": "r030",
+      "bookId": "b043",
+      "score": 5,
+      "ratedAt": "2023-03-02"
+    },
+    {
+      "id": "rt0477",
+      "readerId": "r030",
+      "bookId": "b005",
+      "score": 3,
+      "ratedAt": "2023-03-18"
+    },
+    {
+      "id": "rt0478",
+      "readerId": "r030",
+      "bookId": "b087",
+      "score": 5,
+      "ratedAt": "2024-11-15"
+    },
+    {
+      "id": "rt0479",
+      "readerId": "r030",
+      "bookId": "b096",
+      "score": 1,
+      "ratedAt": "2023-01-07"
+    },
+    {
+      "id": "rt0480",
+      "readerId": "r030",
+      "bookId": "b056",
+      "score": 4,
+      "ratedAt": "2024-10-07"
+    },
+    {
+      "id": "rt0481",
+      "readerId": "r030",
+      "bookId": "b064",
+      "score": 2,
+      "ratedAt": "2023-06-04"
+    },
+    {
+      "id": "rt0482",
+      "readerId": "r030",
+      "bookId": "b018",
+      "score": 3,
+      "ratedAt": "2024-06-01"
+    },
+    {
+      "id": "rt0483",
+      "readerId": "r030",
+      "bookId": "b021",
+      "score": 4,
+      "ratedAt": "2023-03-03"
+    },
+    {
+      "id": "rt0484",
+      "readerId": "r030",
+      "bookId": "b110",
+      "score": 5,
+      "ratedAt": "2024-11-13"
+    },
+    {
+      "id": "rt0485",
+      "readerId": "r030",
+      "bookId": "b022",
+      "score": 5,
+      "ratedAt": "2024-05-09"
+    },
+    {
+      "id": "rt0486",
+      "readerId": "r030",
+      "bookId": "b003",
+      "score": 4,
+      "ratedAt": "2023-01-17"
+    },
+    {
+      "id": "rt0487",
+      "readerId": "r031",
+      "bookId": "b076",
+      "score": 4,
+      "ratedAt": "2024-02-11"
+    },
+    {
+      "id": "rt0488",
+      "readerId": "r031",
+      "bookId": "b001",
+      "score": 3,
+      "ratedAt": "2024-02-20"
+    },
+    {
+      "id": "rt0489",
+      "readerId": "r031",
+      "bookId": "b099",
+      "score": 3,
+      "ratedAt": "2023-09-07"
+    },
+    {
+      "id": "rt0490",
+      "readerId": "r031",
+      "bookId": "b114",
+      "score": 5,
+      "ratedAt": "2023-08-20"
+    },
+    {
+      "id": "rt0491",
+      "readerId": "r031",
+      "bookId": "b057",
+      "score": 2,
+      "ratedAt": "2023-03-24"
+    },
+    {
+      "id": "rt0492",
+      "readerId": "r031",
+      "bookId": "b044",
+      "score": 5,
+      "ratedAt": "2024-10-27"
+    },
+    {
+      "id": "rt0493",
+      "readerId": "r031",
+      "bookId": "b115",
+      "score": 5,
+      "ratedAt": "2023-04-06"
+    },
+    {
+      "id": "rt0494",
+      "readerId": "r031",
+      "bookId": "b055",
+      "score": 4,
+      "ratedAt": "2024-01-22"
+    },
+    {
+      "id": "rt0495",
+      "readerId": "r031",
+      "bookId": "b061",
+      "score": 3,
+      "ratedAt": "2023-02-27"
+    },
+    {
+      "id": "rt0496",
+      "readerId": "r031",
+      "bookId": "b059",
+      "score": 4,
+      "ratedAt": "2023-06-25"
+    },
+    {
+      "id": "rt0497",
+      "readerId": "r031",
+      "bookId": "b116",
+      "score": 1,
+      "ratedAt": "2024-03-20"
+    },
+    {
+      "id": "rt0498",
+      "readerId": "r031",
+      "bookId": "b035",
+      "score": 5,
+      "ratedAt": "2023-12-06"
+    },
+    {
+      "id": "rt0499",
+      "readerId": "r031",
+      "bookId": "b007",
+      "score": 5,
+      "ratedAt": "2023-04-08"
+    },
+    {
+      "id": "rt0500",
+      "readerId": "r031",
+      "bookId": "b040",
+      "score": 5,
+      "ratedAt": "2023-02-13"
+    },
+    {
+      "id": "rt0501",
+      "readerId": "r031",
+      "bookId": "b058",
+      "score": 2,
+      "ratedAt": "2024-08-03"
+    },
+    {
+      "id": "rt0502",
+      "readerId": "r031",
+      "bookId": "b004",
+      "score": 4,
+      "ratedAt": "2023-02-17"
+    },
+    {
+      "id": "rt0503",
+      "readerId": "r031",
+      "bookId": "b103",
+      "score": 5,
+      "ratedAt": "2024-12-01"
+    },
+    {
+      "id": "rt0504",
+      "readerId": "r031",
+      "bookId": "b075",
+      "score": 5,
+      "ratedAt": "2024-07-10"
+    },
+    {
+      "id": "rt0505",
+      "readerId": "r031",
+      "bookId": "b053",
+      "score": 3,
+      "ratedAt": "2023-02-03"
+    },
+    {
+      "id": "rt0506",
+      "readerId": "r031",
+      "bookId": "b077",
+      "score": 4,
+      "ratedAt": "2023-11-19"
+    },
+    {
+      "id": "rt0507",
+      "readerId": "r031",
+      "bookId": "b012",
+      "score": 3,
+      "ratedAt": "2023-08-01"
+    },
+    {
+      "id": "rt0508",
+      "readerId": "r031",
+      "bookId": "b054",
+      "score": 3,
+      "ratedAt": "2024-02-12"
+    },
+    {
+      "id": "rt0509",
+      "readerId": "r032",
+      "bookId": "b057",
+      "score": 5,
+      "ratedAt": "2023-12-15"
+    },
+    {
+      "id": "rt0510",
+      "readerId": "r032",
+      "bookId": "b117",
+      "score": 4,
+      "ratedAt": "2024-09-20"
+    },
+    {
+      "id": "rt0511",
+      "readerId": "r032",
+      "bookId": "b113",
+      "score": 5,
+      "ratedAt": "2024-02-11"
+    },
+    {
+      "id": "rt0512",
+      "readerId": "r032",
+      "bookId": "b028",
+      "score": 5,
+      "ratedAt": "2023-12-01"
+    },
+    {
+      "id": "rt0513",
+      "readerId": "r032",
+      "bookId": "b014",
+      "score": 1,
+      "ratedAt": "2023-10-07"
+    },
+    {
+      "id": "rt0514",
+      "readerId": "r032",
+      "bookId": "b088",
+      "score": 4,
+      "ratedAt": "2024-04-06"
+    },
+    {
+      "id": "rt0515",
+      "readerId": "r032",
+      "bookId": "b043",
+      "score": 4,
+      "ratedAt": "2023-12-31"
+    },
+    {
+      "id": "rt0516",
+      "readerId": "r032",
+      "bookId": "b033",
+      "score": 3,
+      "ratedAt": "2024-01-20"
+    },
+    {
+      "id": "rt0517",
+      "readerId": "r032",
+      "bookId": "b016",
+      "score": 3,
+      "ratedAt": "2024-11-27"
+    },
+    {
+      "id": "rt0518",
+      "readerId": "r032",
+      "bookId": "b017",
+      "score": 3,
+      "ratedAt": "2024-01-25"
+    },
+    {
+      "id": "rt0519",
+      "readerId": "r032",
+      "bookId": "b015",
+      "score": 3,
+      "ratedAt": "2024-09-25"
+    },
+    {
+      "id": "rt0520",
+      "readerId": "r032",
+      "bookId": "b007",
+      "score": 2,
+      "ratedAt": "2023-09-10"
+    },
+    {
+      "id": "rt0521",
+      "readerId": "r032",
+      "bookId": "b052",
+      "score": 4,
+      "ratedAt": "2023-03-26"
+    },
+    {
+      "id": "rt0522",
+      "readerId": "r032",
+      "bookId": "b062",
+      "score": 4,
+      "ratedAt": "2024-01-25"
+    },
+    {
+      "id": "rt0523",
+      "readerId": "r032",
+      "bookId": "b008",
+      "score": 5,
+      "ratedAt": "2024-10-11"
+    },
+    {
+      "id": "rt0524",
+      "readerId": "r032",
+      "bookId": "b018",
+      "score": 4,
+      "ratedAt": "2024-02-03"
+    },
+    {
+      "id": "rt0525",
+      "readerId": "r032",
+      "bookId": "b094",
+      "score": 4,
+      "ratedAt": "2023-04-20"
+    },
+    {
+      "id": "rt0526",
+      "readerId": "r032",
+      "bookId": "b030",
+      "score": 3,
+      "ratedAt": "2023-11-12"
+    },
+    {
+      "id": "rt0527",
+      "readerId": "r033",
+      "bookId": "b014",
+      "score": 4,
+      "ratedAt": "2023-03-28"
+    },
+    {
+      "id": "rt0528",
+      "readerId": "r033",
+      "bookId": "b016",
+      "score": 5,
+      "ratedAt": "2024-07-26"
+    },
+    {
+      "id": "rt0529",
+      "readerId": "r033",
+      "bookId": "b099",
+      "score": 5,
+      "ratedAt": "2023-09-06"
+    },
+    {
+      "id": "rt0530",
+      "readerId": "r033",
+      "bookId": "b077",
+      "score": 3,
+      "ratedAt": "2023-06-23"
+    },
+    {
+      "id": "rt0531",
+      "readerId": "r033",
+      "bookId": "b066",
+      "score": 5,
+      "ratedAt": "2023-06-23"
+    },
+    {
+      "id": "rt0532",
+      "readerId": "r033",
+      "bookId": "b093",
+      "score": 4,
+      "ratedAt": "2023-11-05"
+    },
+    {
+      "id": "rt0533",
+      "readerId": "r033",
+      "bookId": "b117",
+      "score": 4,
+      "ratedAt": "2023-05-30"
+    },
+    {
+      "id": "rt0534",
+      "readerId": "r033",
+      "bookId": "b010",
+      "score": 3,
+      "ratedAt": "2024-03-21"
+    },
+    {
+      "id": "rt0535",
+      "readerId": "r033",
+      "bookId": "b114",
+      "score": 4,
+      "ratedAt": "2023-11-03"
+    },
+    {
+      "id": "rt0536",
+      "readerId": "r033",
+      "bookId": "b036",
+      "score": 4,
+      "ratedAt": "2023-03-20"
+    },
+    {
+      "id": "rt0537",
+      "readerId": "r033",
+      "bookId": "b119",
+      "score": 4,
+      "ratedAt": "2023-09-10"
+    },
+    {
+      "id": "rt0538",
+      "readerId": "r033",
+      "bookId": "b022",
+      "score": 5,
+      "ratedAt": "2024-05-22"
+    },
+    {
+      "id": "rt0539",
+      "readerId": "r033",
+      "bookId": "b026",
+      "score": 5,
+      "ratedAt": "2023-07-20"
+    },
+    {
+      "id": "rt0540",
+      "readerId": "r033",
+      "bookId": "b056",
+      "score": 3,
+      "ratedAt": "2023-05-19"
+    },
+    {
+      "id": "rt0541",
+      "readerId": "r033",
+      "bookId": "b057",
+      "score": 3,
+      "ratedAt": "2024-02-10"
+    },
+    {
+      "id": "rt0542",
+      "readerId": "r033",
+      "bookId": "b002",
+      "score": 3,
+      "ratedAt": "2024-09-27"
+    },
+    {
+      "id": "rt0543",
+      "readerId": "r033",
+      "bookId": "b044",
+      "score": 3,
+      "ratedAt": "2023-12-04"
+    },
+    {
+      "id": "rt0544",
+      "readerId": "r033",
+      "bookId": "b060",
+      "score": 3,
+      "ratedAt": "2024-03-16"
+    },
+    {
+      "id": "rt0545",
+      "readerId": "r034",
+      "bookId": "b033",
+      "score": 5,
+      "ratedAt": "2024-02-07"
+    },
+    {
+      "id": "rt0546",
+      "readerId": "r034",
+      "bookId": "b039",
+      "score": 4,
+      "ratedAt": "2024-07-31"
+    },
+    {
+      "id": "rt0547",
+      "readerId": "r034",
+      "bookId": "b089",
+      "score": 4,
+      "ratedAt": "2024-07-12"
+    },
+    {
+      "id": "rt0548",
+      "readerId": "r034",
+      "bookId": "b096",
+      "score": 4,
+      "ratedAt": "2024-07-17"
+    },
+    {
+      "id": "rt0549",
+      "readerId": "r034",
+      "bookId": "b028",
+      "score": 3,
+      "ratedAt": "2024-04-17"
+    },
+    {
+      "id": "rt0550",
+      "readerId": "r034",
+      "bookId": "b082",
+      "score": 5,
+      "ratedAt": "2023-08-03"
+    },
+    {
+      "id": "rt0551",
+      "readerId": "r034",
+      "bookId": "b113",
+      "score": 4,
+      "ratedAt": "2023-10-26"
+    },
+    {
+      "id": "rt0552",
+      "readerId": "r034",
+      "bookId": "b026",
+      "score": 5,
+      "ratedAt": "2023-03-12"
+    },
+    {
+      "id": "rt0553",
+      "readerId": "r034",
+      "bookId": "b063",
+      "score": 5,
+      "ratedAt": "2024-02-23"
+    },
+    {
+      "id": "rt0554",
+      "readerId": "r034",
+      "bookId": "b101",
+      "score": 5,
+      "ratedAt": "2023-05-23"
+    },
+    {
+      "id": "rt0555",
+      "readerId": "r034",
+      "bookId": "b118",
+      "score": 5,
+      "ratedAt": "2023-09-05"
+    },
+    {
+      "id": "rt0556",
+      "readerId": "r034",
+      "bookId": "b097",
+      "score": 4,
+      "ratedAt": "2023-06-07"
+    },
+    {
+      "id": "rt0557",
+      "readerId": "r034",
+      "bookId": "b030",
+      "score": 5,
+      "ratedAt": "2024-01-22"
+    },
+    {
+      "id": "rt0558",
+      "readerId": "r034",
+      "bookId": "b102",
+      "score": 3,
+      "ratedAt": "2024-09-04"
+    },
+    {
+      "id": "rt0559",
+      "readerId": "r034",
+      "bookId": "b098",
+      "score": 4,
+      "ratedAt": "2024-02-15"
+    },
+    {
+      "id": "rt0560",
+      "readerId": "r034",
+      "bookId": "b025",
+      "score": 5,
+      "ratedAt": "2024-03-04"
+    },
+    {
+      "id": "rt0561",
+      "readerId": "r035",
+      "bookId": "b073",
+      "score": 3,
+      "ratedAt": "2024-06-15"
+    },
+    {
+      "id": "rt0562",
+      "readerId": "r035",
+      "bookId": "b077",
+      "score": 3,
+      "ratedAt": "2024-08-12"
+    },
+    {
+      "id": "rt0563",
+      "readerId": "r035",
+      "bookId": "b035",
+      "score": 2,
+      "ratedAt": "2024-01-19"
+    },
+    {
+      "id": "rt0564",
+      "readerId": "r035",
+      "bookId": "b043",
+      "score": 3,
+      "ratedAt": "2024-11-26"
+    },
+    {
+      "id": "rt0565",
+      "readerId": "r035",
+      "bookId": "b044",
+      "score": 3,
+      "ratedAt": "2024-05-27"
+    },
+    {
+      "id": "rt0566",
+      "readerId": "r035",
+      "bookId": "b047",
+      "score": 4,
+      "ratedAt": "2023-01-26"
+    },
+    {
+      "id": "rt0567",
+      "readerId": "r035",
+      "bookId": "b053",
+      "score": 4,
+      "ratedAt": "2023-10-30"
+    },
+    {
+      "id": "rt0568",
+      "readerId": "r035",
+      "bookId": "b058",
+      "score": 4,
+      "ratedAt": "2023-03-29"
+    },
+    {
+      "id": "rt0569",
+      "readerId": "r035",
+      "bookId": "b116",
+      "score": 3,
+      "ratedAt": "2023-05-26"
+    },
+    {
+      "id": "rt0570",
+      "readerId": "r035",
+      "bookId": "b055",
+      "score": 4,
+      "ratedAt": "2023-12-18"
+    },
+    {
+      "id": "rt0571",
+      "readerId": "r035",
+      "bookId": "b040",
+      "score": 4,
+      "ratedAt": "2023-07-31"
+    },
+    {
+      "id": "rt0572",
+      "readerId": "r035",
+      "bookId": "b001",
+      "score": 3,
+      "ratedAt": "2023-12-23"
+    },
+    {
+      "id": "rt0573",
+      "readerId": "r035",
+      "bookId": "b099",
+      "score": 4,
+      "ratedAt": "2024-03-24"
+    },
+    {
+      "id": "rt0574",
+      "readerId": "r035",
+      "bookId": "b002",
+      "score": 4,
+      "ratedAt": "2024-04-08"
+    },
+    {
+      "id": "rt0575",
+      "readerId": "r035",
+      "bookId": "b037",
+      "score": 3,
+      "ratedAt": "2023-11-04"
+    },
+    {
+      "id": "rt0576",
+      "readerId": "r035",
+      "bookId": "b015",
+      "score": 3,
+      "ratedAt": "2023-04-28"
+    },
+    {
+      "id": "rt0577",
+      "readerId": "r035",
+      "bookId": "b004",
+      "score": 1,
+      "ratedAt": "2023-12-18"
+    },
+    {
+      "id": "rt0578",
+      "readerId": "r035",
+      "bookId": "b054",
+      "score": 5,
+      "ratedAt": "2024-11-24"
+    },
+    {
+      "id": "rt0579",
+      "readerId": "r035",
+      "bookId": "b115",
+      "score": 5,
+      "ratedAt": "2023-09-07"
+    },
+    {
+      "id": "rt0580",
+      "readerId": "r036",
+      "bookId": "b055",
+      "score": 3,
+      "ratedAt": "2023-08-08"
+    },
+    {
+      "id": "rt0581",
+      "readerId": "r036",
+      "bookId": "b099",
+      "score": 4,
+      "ratedAt": "2023-03-06"
+    },
+    {
+      "id": "rt0582",
+      "readerId": "r036",
+      "bookId": "b046",
+      "score": 3,
+      "ratedAt": "2024-07-03"
+    },
+    {
+      "id": "rt0583",
+      "readerId": "r036",
+      "bookId": "b019",
+      "score": 2,
+      "ratedAt": "2023-11-30"
+    },
+    {
+      "id": "rt0584",
+      "readerId": "r036",
+      "bookId": "b022",
+      "score": 2,
+      "ratedAt": "2023-04-27"
+    },
+    {
+      "id": "rt0585",
+      "readerId": "r036",
+      "bookId": "b058",
+      "score": 4,
+      "ratedAt": "2024-05-16"
+    },
+    {
+      "id": "rt0586",
+      "readerId": "r036",
+      "bookId": "b018",
+      "score": 3,
+      "ratedAt": "2024-10-16"
+    },
+    {
+      "id": "rt0587",
+      "readerId": "r036",
+      "bookId": "b092",
+      "score": 3,
+      "ratedAt": "2024-02-02"
+    },
+    {
+      "id": "rt0588",
+      "readerId": "r036",
+      "bookId": "b047",
+      "score": 5,
+      "ratedAt": "2024-08-24"
+    },
+    {
+      "id": "rt0589",
+      "readerId": "r036",
+      "bookId": "b072",
+      "score": 2,
+      "ratedAt": "2023-12-27"
+    },
+    {
+      "id": "rt0590",
+      "readerId": "r036",
+      "bookId": "b076",
+      "score": 5,
+      "ratedAt": "2024-09-24"
+    },
+    {
+      "id": "rt0591",
+      "readerId": "r036",
+      "bookId": "b116",
+      "score": 4,
+      "ratedAt": "2024-11-20"
+    },
+    {
+      "id": "rt0592",
+      "readerId": "r036",
+      "bookId": "b057",
+      "score": 5,
+      "ratedAt": "2023-11-01"
+    },
+    {
+      "id": "rt0593",
+      "readerId": "r036",
+      "bookId": "b061",
+      "score": 5,
+      "ratedAt": "2024-08-27"
+    },
+    {
+      "id": "rt0594",
+      "readerId": "r036",
+      "bookId": "b015",
+      "score": 3,
+      "ratedAt": "2023-05-18"
+    },
+    {
+      "id": "rt0595",
+      "readerId": "r036",
+      "bookId": "b102",
+      "score": 3,
+      "ratedAt": "2023-09-02"
+    },
+    {
+      "id": "rt0596",
+      "readerId": "r036",
+      "bookId": "b054",
+      "score": 4,
+      "ratedAt": "2023-07-07"
+    },
+    {
+      "id": "rt0597",
+      "readerId": "r036",
+      "bookId": "b040",
+      "score": 4,
+      "ratedAt": "2023-05-25"
+    },
+    {
+      "id": "rt0598",
+      "readerId": "r036",
+      "bookId": "b053",
+      "score": 5,
+      "ratedAt": "2024-03-04"
+    },
+    {
+      "id": "rt0599",
+      "readerId": "r036",
+      "bookId": "b023",
+      "score": 3,
+      "ratedAt": "2024-08-11"
+    },
+    {
+      "id": "rt0600",
+      "readerId": "r036",
+      "bookId": "b059",
+      "score": 4,
+      "ratedAt": "2023-07-10"
+    },
+    {
+      "id": "rt0601",
+      "readerId": "r036",
+      "bookId": "b044",
+      "score": 3,
+      "ratedAt": "2024-07-04"
+    },
+    {
+      "id": "rt0602",
+      "readerId": "r037",
+      "bookId": "b043",
+      "score": 5,
+      "ratedAt": "2024-06-01"
+    },
+    {
+      "id": "rt0603",
+      "readerId": "r037",
+      "bookId": "b062",
+      "score": 5,
+      "ratedAt": "2024-02-23"
+    },
+    {
+      "id": "rt0604",
+      "readerId": "r037",
+      "bookId": "b022",
+      "score": 4,
+      "ratedAt": "2024-03-01"
+    },
+    {
+      "id": "rt0605",
+      "readerId": "r037",
+      "bookId": "b002",
+      "score": 4,
+      "ratedAt": "2024-03-30"
+    },
+    {
+      "id": "rt0606",
+      "readerId": "r037",
+      "bookId": "b055",
+      "score": 4,
+      "ratedAt": "2023-03-26"
+    },
+    {
+      "id": "rt0607",
+      "readerId": "r037",
+      "bookId": "b110",
+      "score": 3,
+      "ratedAt": "2023-08-14"
+    },
+    {
+      "id": "rt0608",
+      "readerId": "r037",
+      "bookId": "b008",
+      "score": 2,
+      "ratedAt": "2023-10-09"
+    },
+    {
+      "id": "rt0609",
+      "readerId": "r037",
+      "bookId": "b021",
+      "score": 2,
+      "ratedAt": "2023-10-23"
+    },
+    {
+      "id": "rt0610",
+      "readerId": "r037",
+      "bookId": "b038",
+      "score": 4,
+      "ratedAt": "2024-04-13"
+    },
+    {
+      "id": "rt0611",
+      "readerId": "r037",
+      "bookId": "b019",
+      "score": 3,
+      "ratedAt": "2024-05-22"
+    },
+    {
+      "id": "rt0612",
+      "readerId": "r037",
+      "bookId": "b056",
+      "score": 3,
+      "ratedAt": "2023-04-26"
+    },
+    {
+      "id": "rt0613",
+      "readerId": "r037",
+      "bookId": "b011",
+      "score": 5,
+      "ratedAt": "2023-10-02"
+    },
+    {
+      "id": "rt0614",
+      "readerId": "r037",
+      "bookId": "b073",
+      "score": 5,
+      "ratedAt": "2024-01-11"
+    },
+    {
+      "id": "rt0615",
+      "readerId": "r037",
+      "bookId": "b039",
+      "score": 5,
+      "ratedAt": "2023-02-12"
+    },
+    {
+      "id": "rt0616",
+      "readerId": "r037",
+      "bookId": "b052",
+      "score": 5,
+      "ratedAt": "2024-03-27"
+    },
+    {
+      "id": "rt0617",
+      "readerId": "r037",
+      "bookId": "b071",
+      "score": 5,
+      "ratedAt": "2024-03-11"
+    },
+    {
+      "id": "rt0618",
+      "readerId": "r038",
+      "bookId": "b076",
+      "score": 5,
+      "ratedAt": "2023-03-02"
+    },
+    {
+      "id": "rt0619",
+      "readerId": "r038",
+      "bookId": "b055",
+      "score": 3,
+      "ratedAt": "2024-06-29"
+    },
+    {
+      "id": "rt0620",
+      "readerId": "r038",
+      "bookId": "b008",
+      "score": 4,
+      "ratedAt": "2024-07-05"
+    },
+    {
+      "id": "rt0621",
+      "readerId": "r038",
+      "bookId": "b052",
+      "score": 4,
+      "ratedAt": "2023-10-27"
+    },
+    {
+      "id": "rt0622",
+      "readerId": "r038",
+      "bookId": "b016",
+      "score": 4,
+      "ratedAt": "2023-10-01"
+    },
+    {
+      "id": "rt0623",
+      "readerId": "r038",
+      "bookId": "b033",
+      "score": 5,
+      "ratedAt": "2024-06-10"
+    },
+    {
+      "id": "rt0624",
+      "readerId": "r038",
+      "bookId": "b009",
+      "score": 5,
+      "ratedAt": "2024-11-26"
+    },
+    {
+      "id": "rt0625",
+      "readerId": "r038",
+      "bookId": "b062",
+      "score": 5,
+      "ratedAt": "2023-05-19"
+    },
+    {
+      "id": "rt0626",
+      "readerId": "r038",
+      "bookId": "b010",
+      "score": 5,
+      "ratedAt": "2024-02-26"
+    },
+    {
+      "id": "rt0627",
+      "readerId": "r038",
+      "bookId": "b015",
+      "score": 5,
+      "ratedAt": "2023-10-11"
+    },
+    {
+      "id": "rt0628",
+      "readerId": "r038",
+      "bookId": "b014",
+      "score": 5,
+      "ratedAt": "2023-05-10"
+    },
+    {
+      "id": "rt0629",
+      "readerId": "r038",
+      "bookId": "b075",
+      "score": 5,
+      "ratedAt": "2023-05-16"
+    },
+    {
+      "id": "rt0630",
+      "readerId": "r038",
+      "bookId": "b039",
+      "score": 2,
+      "ratedAt": "2023-11-26"
+    },
+    {
+      "id": "rt0631",
+      "readerId": "r038",
+      "bookId": "b050",
+      "score": 5,
+      "ratedAt": "2024-11-23"
+    },
+    {
+      "id": "rt0632",
+      "readerId": "r038",
+      "bookId": "b013",
+      "score": 4,
+      "ratedAt": "2023-05-26"
+    },
+    {
+      "id": "rt0633",
+      "readerId": "r038",
+      "bookId": "b011",
+      "score": 5,
+      "ratedAt": "2023-10-03"
+    },
+    {
+      "id": "rt0634",
+      "readerId": "r038",
+      "bookId": "b088",
+      "score": 5,
+      "ratedAt": "2024-01-20"
+    },
+    {
+      "id": "rt0635",
+      "readerId": "r039",
+      "bookId": "b069",
+      "score": 4,
+      "ratedAt": "2024-02-12"
+    },
+    {
+      "id": "rt0636",
+      "readerId": "r039",
+      "bookId": "b015",
+      "score": 2,
+      "ratedAt": "2024-03-15"
+    },
+    {
+      "id": "rt0637",
+      "readerId": "r039",
+      "bookId": "b063",
+      "score": 5,
+      "ratedAt": "2024-05-21"
+    },
+    {
+      "id": "rt0638",
+      "readerId": "r039",
+      "bookId": "b114",
+      "score": 4,
+      "ratedAt": "2023-10-18"
+    },
+    {
+      "id": "rt0639",
+      "readerId": "r039",
+      "bookId": "b052",
+      "score": 3,
+      "ratedAt": "2024-08-14"
+    },
+    {
+      "id": "rt0640",
+      "readerId": "r039",
+      "bookId": "b007",
+      "score": 2,
+      "ratedAt": "2024-05-11"
+    },
+    {
+      "id": "rt0641",
+      "readerId": "r039",
+      "bookId": "b011",
+      "score": 4,
+      "ratedAt": "2024-11-29"
+    },
+    {
+      "id": "rt0642",
+      "readerId": "r039",
+      "bookId": "b013",
+      "score": 4,
+      "ratedAt": "2023-02-17"
+    },
+    {
+      "id": "rt0643",
+      "readerId": "r039",
+      "bookId": "b119",
+      "score": 3,
+      "ratedAt": "2024-04-15"
+    },
+    {
+      "id": "rt0644",
+      "readerId": "r039",
+      "bookId": "b028",
+      "score": 1,
+      "ratedAt": "2023-06-11"
+    },
+    {
+      "id": "rt0645",
+      "readerId": "r039",
+      "bookId": "b010",
+      "score": 4,
+      "ratedAt": "2023-01-01"
+    },
+    {
+      "id": "rt0646",
+      "readerId": "r039",
+      "bookId": "b016",
+      "score": 5,
+      "ratedAt": "2024-03-14"
+    },
+    {
+      "id": "rt0647",
+      "readerId": "r039",
+      "bookId": "b120",
+      "score": 2,
+      "ratedAt": "2023-05-16"
+    },
+    {
+      "id": "rt0648",
+      "readerId": "r039",
+      "bookId": "b075",
+      "score": 5,
+      "ratedAt": "2023-11-06"
+    },
+    {
+      "id": "rt0649",
+      "readerId": "r039",
+      "bookId": "b048",
+      "score": 2,
+      "ratedAt": "2023-10-08"
+    },
+    {
+      "id": "rt0650",
+      "readerId": "r040",
+      "bookId": "b068",
+      "score": 5,
+      "ratedAt": "2024-10-26"
+    },
+    {
+      "id": "rt0651",
+      "readerId": "r040",
+      "bookId": "b013",
+      "score": 4,
+      "ratedAt": "2024-02-10"
+    },
+    {
+      "id": "rt0652",
+      "readerId": "r040",
+      "bookId": "b117",
+      "score": 5,
+      "ratedAt": "2023-08-28"
+    }
+  ]
+}
