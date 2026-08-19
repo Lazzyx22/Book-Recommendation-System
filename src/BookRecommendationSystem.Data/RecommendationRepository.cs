@@ -34,14 +34,13 @@ public class RecommendationRepository
         """;
 
     private const string ReadingTwinQuery = """
-        MATCH(me:Reader {id: $readerId})-[r1:RATED]->(b:Book)<-[r2:RATED]-(other:Reader)
-        WHERE other <> me
-        WITH other, count(b) AS sharedBooks
-            avg(abs(r1.score - r2.score)) AS avgScoreGap
-        RETURN other.name AS twin, sharedBooks, avgScoreGap
-        ORDER BY sharedBooks DESC, avgScoreGap ASC
-        LIMIT 1
-        """;
+         MATCH (me:Reader {id: $readerId})-[r1:RATED]->(b:Book)<-[r2:RATED]-(other:Reader)
+         WHERE other <> me
+         WITH other, count(b) AS sharedBooks, avg(abs(r1.score - r2.score)) AS avgScoreGap
+         RETURN other.name AS twin, sharedBooks, avgScoreGap
+         ORDER BY sharedBooks DESC, avgScoreGap ASC
+         LIMIT 1
+         """;
 
 
     public RecommendationRepository(IDriver driver) => _driver = driver;
@@ -105,7 +104,6 @@ public class RecommendationRepository
 
     public async Task<(string TwinName, int SharedBooks, double AvgScoreGap)?> GetReadingTwinAsync(string readerId)
     {
-        //await using var session = _driver.AsyncSession();
         try
         {
             var result = await _driver.ExecutableQuery(ReadingTwinQuery)
