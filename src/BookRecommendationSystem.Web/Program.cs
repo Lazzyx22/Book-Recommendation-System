@@ -15,6 +15,7 @@ builder.Services.AddSingleton<IDriver>(sp =>
 
 builder.Services.AddScoped<RecommendationRepository>();
 builder.Services.AddScoped<ReaderRepository>();
+builder.Services.AddScoped<FollowRepository>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -33,7 +34,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-//app.MapStaticAssets();
+app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 

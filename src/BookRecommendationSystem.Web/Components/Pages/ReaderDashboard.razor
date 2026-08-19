@@ -3,6 +3,8 @@
 @inject ReaderRepository ReaderRepo
 @using BookRecommendationSystem.Data
 @using BookRecommendationSystem.Web.Components.Shared
+@inject FollowRepository FollowRepo
+
 
 <PageTitle>BookRecommendationSystem</PageTitle>
 
@@ -63,6 +65,19 @@
                     <a class="btn-secondary" href="/reading-twin/@ReaderId">Find my reading twin →</a>
                 </div>
             </div>
+            @if (_following is not null && _following.Count > 0)
+            {
+                <div class="following-section">
+                    <h3>Following (@_following.Count)</h3>
+                    <div class="following-chips">
+                        @foreach (var f in _following)
+                        {
+                            <a class="follow-chip" href="/reader/@f.Id">@f.Name</a>
+                        }
+                    </div>
+                </div>
+            }
+
             <ul class="book-list">
                 @foreach (var b in _books)
                 {
@@ -95,9 +110,10 @@
         _readers?.FirstOrDefault(r => r.Id == ReaderId)?.Name ?? "This reader";
 
     protected override Task OnInitializedAsync() => LoadReadersAsync();
+    private List<FollowedReader>? _following;
 
     protected override Task OnParametersSetAsync() =>
-        string.IsNullOrEmpty(ReaderId) ? Task.CompletedTask : LoadBooksAsync();
+        string.IsNullOrEmpty(ReaderId) ? Task.CompletedTask : LoadDetailAsync();
 
     private async Task LoadReadersAsync()
     {
@@ -114,4 +130,17 @@
         try { _books = await ReaderRepo.GetReaderBooksAsync(ReaderId!); }
         catch (DatabaseUnavailableException ex) { _booksError = ex.Message; }
     }
+
+    private async Task LoadDetailAsync()
+    {
+        await LoadBooksAsync();
+        await LoadFollowingAsync();
+    }
+
+    private async Task LoadFollowingAsync()
+    {
+        try { _following = await FollowRepo.GetFollowingAsync(ReaderId!); }
+        catch (DatabaseUnavailableException) { _following = new(); }
+    }
+
 }

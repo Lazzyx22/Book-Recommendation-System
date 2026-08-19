@@ -1,5 +1,6 @@
 ﻿@page "/reading-twin/{ReaderId}"
 @inject RecommendationRepository Repo
+@inject FollowRepository FollowRepo
 @using BookRecommendationSystem.Data
 @using BookRecommendationSystem.Web.Components.Shared
 
@@ -26,12 +27,14 @@ else
             You've both rated <strong>@_twin.Value.SharedBooks</strong> of the same books,
             averaging <strong>@_twin.Value.AvgScoreGap.ToString("0.0")</strong> stars apart.
         </p>
+        <FollowButton ActorId="@ReaderId" TargetId="@_twin.Value.TwinId" InitialFollowing="@_isFollowingTwin" />
     </div>
 }
 
 @code {
     [Parameter] public string ReaderId { get; set; } = "";
-    private (string TwinName, int SharedBooks, double AvgScoreGap)? _twin;
+    private (string TwinId, string TwinName, int SharedBooks, double AvgScoreGap)? _twin;
+    private bool _isFollowingTwin;
     private bool _loaded;
     private string? _error;
 
@@ -44,6 +47,11 @@ else
         try
         {
             _twin = await Repo.GetReadingTwinAsync(ReaderId);
+            if (_twin is not null)
+            {
+                var following = await FollowRepo.GetFollowingAsync(ReaderId);
+                _isFollowingTwin = following.Any(f => f.Id == _twin.Value.TwinId);
+            }
         }
         catch (DatabaseUnavailableException ex) { _error = ex.Message; }
         finally { _loaded = true; }
