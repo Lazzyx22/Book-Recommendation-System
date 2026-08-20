@@ -2,8 +2,9 @@
 
 This is my submission for the Wexa AI take-home assignment. The task was pretty open — build something with CognoDB (a graph database) and pick whatever use case I wanted. I went with a book recommendation app, but I didn't want it to just spit out random book titles with no explanation. So the whole app is built around showing *why* a book was recommended — like, "this person rated it 5 stars and you both loved these 3 books too." I thought that made way more sense for a graph database than just a normal recommendation list.
 
-> Live demo: **[ADD YOUR HOSTED URL HERE]**
-> Screen recording: **[ADD YOUR RECORDING LINK HERE]**
+> Live demo: **https://book-recommendation-system-1-n4zh.onrender.com**
+
+> Screen recording: **https://drive.google.com/file/d/1HwqPshYGrHk2X_Ao9nU5huICPXMEGZeb/view?usp=sharing**
 
 ---
 
