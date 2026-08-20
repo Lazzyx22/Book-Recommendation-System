@@ -27,10 +27,21 @@ body {
     background: var(--panel);
     border-right: 1px solid var(--border);
     padding: 1.5rem 1rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .reader-detail-panel {
     padding: 2rem 3rem;
+}
+
+.panel-heading {
+    font-size: 1.65rem;
+    margin: 0 0 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
 }
 
 .reader-list {
@@ -82,6 +93,10 @@ body {
     border-radius: var(--radius);
     text-decoration: none;
     font-weight: 600;
+    font-family: inherit;
+    font-size: 1rem;
+    background: transparent;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -97,6 +112,11 @@ body {
     border: 1px solid var(--border);
     color: var(--text);
 }
+
+    .btn-secondary:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+    }
 
 .book-list {
     list-style: none;
@@ -132,16 +152,27 @@ body {
     font-size: 0.75rem;
 }
 
+.recommendations-page {
+    padding: 2rem 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+    .recommendations-page h2 {
+        margin-bottom: 1rem;
+    }
+
 .rec-list {
     list-style: none;
     padding: 0;
+    margin-top: 1.5rem;
 }
 
 .rec-card {
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
     overflow: hidden;
 }
 
@@ -254,13 +285,50 @@ body {
     }
 }
 
-.twin-card {
+.twin-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    z-index: 100;
+}
+
+.twin-modal {
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 2rem;
-    text-align: center;
+    min-width: 320px;
     max-width: 500px;
+}
+
+.twin-modal-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0.35rem;
+    border-radius: 999px;
+}
+
+    .twin-modal-close:hover {
+        color: var(--text);
+        background: var(--border);
+    }
+
+.twin-card {
+    text-align: center;
 }
 
 .twin-name {
