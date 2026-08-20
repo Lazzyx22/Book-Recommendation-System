@@ -1,52 +1,82 @@
 ﻿@page "/recommendations/{ReaderId}"
+@* @rendermode InteractiveServer *@
 @inject RecommendationRepository Repo
 @using BookRecommendationSystem.Data
 @using BookRecommendationSystem.Web.Components.Shared
 
-@if (_error is not null)
-{
-    <DbUnavailableBanner Message="@_error" OnRetry="LoadAsync" />
-}
-else if (_recs is null)
-{
-    <LoadingSkeleton Rows="5" />
-}
-else if (_recs.Count == 0)
-{
-    <div class="empty-state">
-        <p>Not enough ratings yet to build recommendations for this reader.</p>
-        <a href="/">← Back to all readers</a>
-    </div>
-}
-else
-{
-    <h2>Recommended for you</h2>
-    <ul class="rec-list">
-        @foreach (var rec in _recs)
+<div class="recommendations-page">
+    @if (_error is not null)
+    {
+        <DbUnavailableBanner Message="@_error" OnRetry="LoadAsync" />
+    }
+    else if (_recs is null)
+    {
+        <LoadingSkeleton Rows="5" />
+    }
+    else if (_recs.Count == 0)
+    {
+        @if (_fallback is not null && _fallback.Count > 0)
         {
-            <li class="rec-card">
-                <div class="rec-header" @onclick="() => Toggle(rec.Title)">
-                    <strong>@rec.Title</strong>
-                    <span class="rating-badge">@rec.AvgRating.ToString("0.0")★</span>
-                    <span class="badge">@rec.Evidence.Count reader@(rec.Evidence.Count == 1 ? "" : "s") agree</span>
-                </div>
-                @if (_expanded.Contains(rec.Title))
+            <h2>Based on genres you love</h2>
+            <p class="fallback-note">This reader's closest matches haven't rated anything new — here's what's popular in their favorite genres instead.</p>
+            <ul class="book-list">
+                @foreach (var b in _fallback)
                 {
-                    <ul class="evidence-list">
-                        @foreach (var ev in rec.Evidence)
-                        {
-                            <li><strong>@ev.ReaderName</strong> rated it @ev.Score★ — you both loved <em>@string.Join(", ", ev.SharedBooks.Take(2))</em></li>
-                        }
-                    </ul>
+                    <li class="book-row">
+                        <span class="book-title">@b.Title</span>
+                        <span class="book-score">@b.AvgRating.ToString("0.0")★</span>
+                    </li>
                 }
-            </li>
+            </ul>
         }
-    </ul>
-}
+        else
+        {
+            <div class="empty-state">
+                <p>Not enough ratings yet to build recommendations for this reader.</p>
+                <a href="/">← Back to all readers</a>
+            </div>
+        }
+    }
+    else
+    {
+        <h2>Recommended for you</h2>
+        <ul class="rec-list">
+            @foreach (var rec in _recs)
+            {
+                <li class="rec-card">
+                    <div class="rec-header" @onclick="() => Toggle(rec.Title)">
+                        <strong>@rec.Title</strong>
+                        <span class="rating-badge">@rec.AvgRating.ToString("0.0")★</span>
+                        <span class="badge">@rec.Evidence.Count reader@(rec.Evidence.Count == 1 ? "" : "s") agree</span>
+                        @if (rec.FollowedByCount > 0)
+                        {
+                            <span class="badge badge-followed">
+                                👥 Followed by @rec.FollowedByCount @(rec.FollowedByCount == 1 ? "person" : "people") you follow
+                            </span>
+                        }
+                    </div>
+                    @if (_expanded.Contains(rec.Title))
+                    {
+                        <ul class="evidence-list">
+                            @foreach (var ev in rec.Evidence)
+                            {
+                                <li>
+                                    <strong>@ev.ReaderName</strong> rated it @ev.Score★ — you both loved <em>@string.Join(", ", ev.SharedBooks.Take(2))</em>
+                                    <FollowButton ActorId="@ReaderId" TargetId="@ev.ReaderId" InitialFollowing="@ev.IsFollowed" />
+                                </li>
+                            }
+                        </ul>
+                    }
+                </li>
+            }
+        </ul>
+    }
+</div>
 
 @code {
     [Parameter] public string ReaderId { get; set; } = "";
     private List<ExplainableRecommendation>? _recs;
+    private List<BookRecommendation>? _fallback;
     private readonly HashSet<string> _expanded = new();
     private string? _error;
 
@@ -54,9 +84,16 @@ else
 
     private async Task LoadAsync()
     {
-        _error = null; _recs = null;
+        _error = null; _recs = null; _fallback = null;
         StateHasChanged();
-        try { _recs = await Repo.GetExplainableRecommendationsAsync(ReaderId); }
+        try
+        {
+            _recs = await Repo.GetExplainableRecommendationsAsync(ReaderId);
+            if (_recs.Count == 0)
+            {
+                _fallback = await Repo.GetGenreFallbackRecommendationsAsync(ReaderId);
+            }
+        }
         catch (DatabaseUnavailableException ex) { _error = ex.Message; }
     }
 

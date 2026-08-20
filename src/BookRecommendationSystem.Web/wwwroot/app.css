@@ -27,10 +27,21 @@ body {
     background: var(--panel);
     border-right: 1px solid var(--border);
     padding: 1.5rem 1rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .reader-detail-panel {
     padding: 2rem 3rem;
+}
+
+.panel-heading {
+    font-size: 1.65rem;
+    margin: 0 0 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
 }
 
 .reader-list {
@@ -82,6 +93,10 @@ body {
     border-radius: var(--radius);
     text-decoration: none;
     font-weight: 600;
+    font-family: inherit;
+    font-size: 1rem;
+    background: transparent;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -97,6 +112,11 @@ body {
     border: 1px solid var(--border);
     color: var(--text);
 }
+
+    .btn-secondary:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+    }
 
 .book-list {
     list-style: none;
@@ -132,16 +152,27 @@ body {
     font-size: 0.75rem;
 }
 
+.recommendations-page {
+    padding: 2rem 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+    .recommendations-page h2 {
+        margin-bottom: 1rem;
+    }
+
 .rec-list {
     list-style: none;
     padding: 0;
+    margin-top: 1.5rem;
 }
 
 .rec-card {
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
     overflow: hidden;
 }
 
@@ -175,8 +206,18 @@ body {
 }
 
     .evidence-list li {
-        padding: 0.25rem 0;
+        padding: 0.35rem 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.25rem;
     }
+
+.fallback-note {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
 
 .empty-state {
     text-align: center;
@@ -244,17 +285,135 @@ body {
     }
 }
 
-.twin-card {
+.twin-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    z-index: 100;
+}
+
+.twin-modal {
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 2rem;
-    text-align: center;
+    min-width: 320px;
     max-width: 500px;
+}
+
+.twin-modal-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0.35rem;
+    border-radius: 999px;
+}
+
+    .twin-modal-close:hover {
+        color: var(--text);
+        background: var(--border);
+    }
+
+.twin-card {
+    text-align: center;
 }
 
 .twin-name {
     font-size: 1.5rem;
     color: var(--accent);
     font-weight: 700;
+}
+
+.follow-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.btn-follow {
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 0.15rem 0.7rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+    .btn-follow:hover {
+        background: var(--accent);
+        color: #fff;
+    }
+
+    .btn-follow:disabled {
+        opacity: 0.6;
+        cursor: default;
+    }
+
+.follow-status.following {
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.follow-error {
+    color: var(--danger);
+    font-size: 0.75rem;
+}
+
+.following-section {
+    margin-bottom: 1.5rem;
+}
+
+    .following-section h3 {
+        font-size: 0.95rem;
+        color: var(--text-dim);
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+.following-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.follow-chip {
+    display: inline-block;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+    .follow-chip:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+    }
+
+.badge-followed {
+    background: rgba(72, 199, 116, 0.15);
+    color: #48c774;
+}
+
+.twin-card .follow-wrap {
+    margin-top: 1rem;
+    margin-left: 0;
 }

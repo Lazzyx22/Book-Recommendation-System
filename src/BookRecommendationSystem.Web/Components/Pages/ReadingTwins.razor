@@ -1,41 +1,52 @@
-﻿@page "/reading-twin/{ReaderId}"
-@inject RecommendationRepository Repo
+﻿@inject RecommendationRepository Repo
+@inject FollowRepository FollowRepo
 @using BookRecommendationSystem.Data
 @using BookRecommendationSystem.Web.Components.Shared
 
-@if (_error is not null)
-{
-    <DbUnavailableBanner Message="@_error" OnRetry="LoadAsync" />
-}
-else if (!_loaded)
-{
-    <LoadingSkeleton Rows="1" />
-}
-else if (_twin is null)
-{
-    <div class="empty-state">
-        <p>No reading twin found yet — this reader hasn't overlapped enough with anyone else.</p>
+<div class="twin-modal-backdrop" @onclick="Close">
+    <div class="twin-modal" @onclick:stopPropagation="true">
+        <button class="twin-modal-close" @onclick="Close" aria-label="Close">✕</button>
+
+        @if (_error is not null)
+        {
+            <DbUnavailableBanner Message="@_error" OnRetry="LoadAsync" />
+        }
+        else if (!_loaded)
+        {
+            <LoadingSkeleton Rows="1" />
+        }
+        else if (_twin is null)
+        {
+            <div class="empty-state">
+                <p>No reading twin found yet — this reader hasn't overlapped enough with anyone else.</p>
+            </div>
+        }
+        else
+        {
+            <div class="twin-card">
+                <h2>Your reading twin</h2>
+                <p class="twin-name">@_twin.Value.TwinName</p>
+                <p>
+                    You've both rated <strong>@_twin.Value.SharedBooks</strong> of the same books,
+                    averaging <strong>@_twin.Value.AvgScoreGap.ToString("0.0")</strong> stars apart.
+                </p>
+                <FollowButton ActorId="@ReaderId" TargetId="@_twin.Value.TwinId" InitialFollowing="@_isFollowingTwin" />
+            </div>
+        }
     </div>
-}
-else
-{
-    <div class="twin-card">
-        <h2>Your reading twin</h2>
-        <p class="twin-name">@_twin.Value.TwinName</p>
-        <p>
-            You've both rated <strong>@_twin.Value.SharedBooks</strong> of the same books,
-            averaging <strong>@_twin.Value.AvgScoreGap.ToString("0.0")</strong> stars apart.
-        </p>
-    </div>
-}
+</div>
 
 @code {
     [Parameter] public string ReaderId { get; set; } = "";
-    private (string TwinName, int SharedBooks, double AvgScoreGap)? _twin;
+    [Parameter] public EventCallback OnClose { get; set; }
+    private (string TwinId, string TwinName, int SharedBooks, double AvgScoreGap)? _twin;
+    private bool _isFollowingTwin;
     private bool _loaded;
     private string? _error;
 
     protected override Task OnParametersSetAsync() => LoadAsync();
+
+    private Task Close() => OnClose.InvokeAsync();
 
     private async Task LoadAsync()
     {
@@ -44,6 +55,11 @@ else
         try
         {
             _twin = await Repo.GetReadingTwinAsync(ReaderId);
+            if (_twin is not null)
+            {
+                var following = await FollowRepo.GetFollowingAsync(ReaderId);
+                _isFollowingTwin = following.Any(f => f.Id == _twin.Value.TwinId);
+            }
         }
         catch (DatabaseUnavailableException ex) { _error = ex.Message; }
         finally { _loaded = true; }

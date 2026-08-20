@@ -1,14 +1,17 @@
 ﻿@page "/"
 @page "/reader/{ReaderId}"
+@* @rendermode InteractiveServer *@
 @inject ReaderRepository ReaderRepo
 @using BookRecommendationSystem.Data
 @using BookRecommendationSystem.Web.Components.Shared
+@inject FollowRepository FollowRepo
+
 
 <PageTitle>BookRecommendationSystem</PageTitle>
 
 <div class="layout">
     <aside class="reader-list-panel">
-        <h2>Readers</h2>
+        <h2 class="panel-heading">Readers</h2>
         @if (_readerError is not null)
         {
             <DbUnavailableBanner Message="@_readerError" OnRetry="LoadReadersAsync" />
@@ -60,9 +63,22 @@
                 <h2>@CurrentReaderName's ratings</h2>
                 <div class="detail-actions">
                     <a class="btn-primary" href="/recommendations/@ReaderId">View recommendations →</a>
-                    <a class="btn-secondary" href="/reading-twin/@ReaderId">Find my reading twin →</a>
+                    <button type="button" class="btn-secondary" @onclick="() => _showTwinModal = true">Find my reading twin →</button>
                 </div>
             </div>
+            @if (_following is not null && _following.Count > 0)
+            {
+                <div class="following-section">
+                    <h3>Following (@_following.Count)</h3>
+                    <div class="following-chips">
+                        @foreach (var f in _following)
+                        {
+                            <a class="follow-chip" href="/reader/@f.Id">@f.Name</a>
+                        }
+                    </div>
+                </div>
+            }
+
             <ul class="book-list">
                 @foreach (var b in _books)
                 {
@@ -82,11 +98,17 @@
     </main>
 </div>
 
+@if (_showTwinModal && !string.IsNullOrEmpty(ReaderId))
+{
+    <ReadingTwins ReaderId="@ReaderId" OnClose="() => _showTwinModal = false" />
+}
+
 @code {
     [Parameter] public string? ReaderId { get; set; }
 
     private List<ReaderSummary>? _readers;
     private string? _readerError;
+    private bool _showTwinModal;
 
     private List<RatedBook>? _books;
     private string? _booksError;
@@ -95,9 +117,13 @@
         _readers?.FirstOrDefault(r => r.Id == ReaderId)?.Name ?? "This reader";
 
     protected override Task OnInitializedAsync() => LoadReadersAsync();
+    private List<FollowedReader>? _following;
 
-    protected override Task OnParametersSetAsync() =>
-        string.IsNullOrEmpty(ReaderId) ? Task.CompletedTask : LoadBooksAsync();
+    protected override Task OnParametersSetAsync()
+    {
+        _showTwinModal = false;
+        return string.IsNullOrEmpty(ReaderId) ? Task.CompletedTask : LoadDetailAsync();
+    }
 
     private async Task LoadReadersAsync()
     {
@@ -114,4 +140,17 @@
         try { _books = await ReaderRepo.GetReaderBooksAsync(ReaderId!); }
         catch (DatabaseUnavailableException ex) { _booksError = ex.Message; }
     }
+
+    private async Task LoadDetailAsync()
+    {
+        await LoadBooksAsync();
+        await LoadFollowingAsync();
+    }
+
+    private async Task LoadFollowingAsync()
+    {
+        try { _following = await FollowRepo.GetFollowingAsync(ReaderId!); }
+        catch (DatabaseUnavailableException) { _following = new(); }
+    }
+
 }

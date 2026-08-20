@@ -1,0 +1,51 @@
+﻿@using BookRecommendationSystem.Data
+
+<span class="follow-wrap">
+    @if (_following)
+    {
+        <span class="follow-status following">✓ Following</span>
+    }
+    else
+    {
+        <button class="btn-follow" @onclick="HandleFollow" disabled="@_busy">+ Follow</button>
+    }
+    @if (_failed)
+    {
+        <span class="follow-error">Couldn't follow — try again</span>
+    }
+</span>
+
+@code {
+    [Parameter] public string ActorId { get; set; } = "";
+    [Parameter] public string TargetId { get; set; } = "";
+    [Parameter] public bool InitialFollowing { get; set; }
+    [Inject] private FollowRepository FollowRepo { get; set; } = default!;
+
+    private bool _following;
+    private bool _busy;
+    private bool _failed;
+
+    protected override void OnParametersSet() => _following = InitialFollowing;
+
+    private async Task HandleFollow()
+    {
+        _following = true;   // optimistic — flips before the round trip completes
+        _failed = false;
+        _busy = true;
+        StateHasChanged();
+
+        try
+        {
+            await FollowRepo.FollowAsync(ActorId, TargetId);
+        }
+        catch (DatabaseUnavailableException)
+        {
+            _following = false;  // revert on failure
+            _failed = true;
+        }
+        finally
+        {
+            _busy = false;
+        }
+    }
+}

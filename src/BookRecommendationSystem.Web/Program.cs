@@ -15,6 +15,7 @@ builder.Services.AddSingleton<IDriver>(sp =>
 
 builder.Services.AddScoped<RecommendationRepository>();
 builder.Services.AddScoped<ReaderRepository>();
+builder.Services.AddScoped<FollowRepository>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -28,12 +29,12 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
     app.UseHsts();
 }
-//app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
+app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-//app.MapStaticAssets();
+app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
